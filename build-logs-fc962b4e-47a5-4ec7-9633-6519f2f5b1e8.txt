@@ -1,0 +1,1320 @@
+2025-12-10T09:50:13.966Z [INFO] Successfully cloned repository git://github.com/dptdptdpt1/wan-2.2-smooth-workflow-v2.0-img2vid-json at main
+2025-12-10T09:50:13.966Z [INFO] Creating cache directory.
+2025-12-10T09:50:16.200Z [INFO] Build using docker
+2025-12-10T09:50:16.314Z [INFO] nervous_ride
+2025-12-10T09:50:16.409Z [INFO] #0 building with "nervous_ride" instance using docker-container driver
+2025-12-10T09:50:16.410Z [INFO] #1 [internal] booting buildkit
+2025-12-10T09:50:16.561Z [INFO] #1 pulling image moby/buildkit:v0.17.2
+2025-12-10T09:50:16.623Z [INFO] #1 pulling image moby/buildkit:v0.17.2 0.2s done
+2025-12-10T09:50:16.773Z [INFO] #1 creating container buildx_buildkit_nervous_ride0
+2025-12-10T09:50:17.443Z [INFO] #1 creating container buildx_buildkit_nervous_ride0 0.8s done
+2025-12-10T09:50:17.643Z [INFO] #1 DONE 1.0s
+2025-12-10T09:50:17.643Z [INFO] #2 [internal] load build definition from Dockerfile
+2025-12-10T09:50:17.643Z [INFO] #2 transferring dockerfile: 2.77kB done
+2025-12-10T09:50:17.643Z [INFO] #2 DONE 0.0s
+2025-12-10T09:50:17.643Z [INFO] #3 [auth] runpod/worker-comfyui:pull token for registry-1.docker.io
+2025-12-10T09:50:17.794Z [INFO] #3 DONE 0.0s
+2025-12-10T09:50:17.794Z [INFO] #4 [internal] load metadata for docker.io/runpod/worker-comfyui:5.5.0-base
+2025-12-10T09:50:17.972Z [INFO] #4 DONE 0.4s
+2025-12-10T09:50:18.099Z [INFO] #5 [internal] load .dockerignore
+2025-12-10T09:50:18.099Z [INFO] #5 transferring context: 2B done
+2025-12-10T09:50:18.099Z [INFO] #5 DONE 0.0s
+2025-12-10T09:50:18.099Z [INFO] #6 [ 1/16] FROM docker.io/runpod/worker-comfyui:5.5.0-base@sha256:391483d34581f3d27d6a2d9c89a7059642d1773084ec0cd7360dead654a3692d
+2025-12-10T09:50:18.099Z [INFO] #6 resolve docker.io/runpod/worker-comfyui:5.5.0-base@sha256:391483d34581f3d27d6a2d9c89a7059642d1773084ec0cd7360dead654a3692d done
+2025-12-10T09:50:18.099Z [INFO] #6 sha256:9d2e102127f9ba2c2ac52852c0c132001afb123518bf663e146b71b70bb6d7a3 661B / 661B 0.0s done
+2025-12-10T09:50:18.282Z [INFO] #6 sha256:7925af29e8bf64f54eca8c9b411874b8ff12b87b3e9d3a654935fd2ad7ae4f59 997B / 997B 0.1s done
+2025-12-10T09:50:18.282Z [INFO] #6 sha256:3ba1aa0fd3f9afe20818cf056bf31d264006c84db440fecdf464960056751af9 1.00kB / 1.00kB 0.1s done
+2025-12-10T09:50:18.282Z [INFO] #6 sha256:72f7f36bae4c9f40f0f67ecdfae2a846b2e67b60534c6ee2ed05708b2fe7fc56 600B / 600B 0.0s done
+2025-12-10T09:50:18.282Z [INFO] #6 sha256:55bd96143498e8d5fb5e059a868c39d78b1a797937950f84743a64bd1642803b 10.04kB / 10.04kB 0.0s done
+2025-12-10T09:50:18.282Z [INFO] #6 sha256:da67f0eb18cf29b985fc2aa97248e2fc482b9e6cf0a0cd69f0568cd45b5d2514 665B / 665B 0.1s done
+2025-12-10T09:50:18.282Z [INFO] #6 sha256:26caf4eaf3a9c104c153682d9f63f77da219a2d9cff858b90f0f1f632fb4fdd0 294B / 294B 0.0s done
+2025-12-10T09:50:18.282Z [INFO] #6 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 32B / 32B 0.0s done
+2025-12-10T09:50:18.282Z [INFO] #6 sha256:f4a5f976b717e8a4cf6b7e8ec9d79ec355b3b8e6e2ac7991e1ea06615d09f250 20.97MB / 45.52MB 0.2s
+2025-12-10T09:50:18.410Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 18.87MB / 8.61GB 0.2s
+2025-12-10T09:50:18.411Z [INFO] #6 sha256:0a57e7d8cd83f656b0e19ff23a186fd77527f45c232cc8cbf4132d7a9d61e44b 22.02MB / 45.86MB 0.2s
+2025-12-10T09:50:18.411Z [INFO] #6 sha256:e663b4482920d0cd39564efcee0141d0b61617a855d0cf7fd21158f0a3709b71 21.76MB / 21.76MB 0.2s done
+2025-12-10T09:50:18.532Z [INFO] #6 sha256:f4a5f976b717e8a4cf6b7e8ec9d79ec355b3b8e6e2ac7991e1ea06615d09f250 45.52MB / 45.52MB 0.3s done
+2025-12-10T09:50:18.532Z [INFO] #6 sha256:0a57e7d8cd83f656b0e19ff23a186fd77527f45c232cc8cbf4132d7a9d61e44b 45.86MB / 45.86MB 0.3s done
+2025-12-10T09:50:18.532Z [INFO] #6 sha256:441aff9995340c88bdcd146f92f65624a2bf184362c358d38e04fbf4f607d8c8 637B / 637B 0.0s done
+2025-12-10T09:50:18.532Z [INFO] #6 sha256:3b176c2fc716d64847e7a75a3572297f05a2f4d7f8d649ce1dd1c687350f9ef4 1.52kB / 1.52kB 0.0s done
+2025-12-10T09:50:18.711Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 30.41MB / 324.44MB 0.3s
+2025-12-10T09:50:18.711Z [INFO] #6 sha256:6fd18a5204307c56c8849e2653f9b154d15c95c565e05d93d2b407af98b620aa 1.68kB / 1.68kB 0.0s done
+2025-12-10T09:50:18.711Z [INFO] #6 sha256:77b0ceda29ac0c8b985431cc5a073a2e45f89103d83877451694b5e13be7c794 59.36kB / 59.36kB 0.0s done
+2025-12-10T09:50:18.711Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 32.51MB / 575.95MB 0.2s
+2025-12-10T09:50:18.861Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 65.01MB / 324.44MB 0.5s
+2025-12-10T09:50:18.861Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 25.17MB / 1.44GB 0.2s
+2025-12-10T09:50:19.013Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 87.03MB / 324.44MB 0.6s
+2025-12-10T09:50:19.013Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 66.06MB / 575.95MB 0.5s
+2025-12-10T09:50:19.311Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 122.68MB / 324.44MB 0.9s
+2025-12-10T09:50:19.311Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 121.63MB / 575.95MB 0.8s
+2025-12-10T09:50:19.311Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 112.20MB / 1.44GB 0.6s
+2025-12-10T09:50:19.461Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 139.46MB / 324.44MB 1.1s
+2025-12-10T09:50:19.461Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 163.58MB / 575.95MB 0.9s
+2025-12-10T09:50:19.613Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 159.38MB / 324.44MB 1.2s
+2025-12-10T09:50:19.613Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 192.94MB / 575.95MB 1.1s
+2025-12-10T09:50:19.761Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 182.45MB / 324.44MB 1.4s
+2025-12-10T09:50:19.761Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 229.64MB / 575.95MB 1.2s
+2025-12-10T09:50:19.761Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 197.13MB / 1.44GB 1.1s
+2025-12-10T09:50:19.914Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 204.47MB / 324.44MB 1.5s
+2025-12-10T09:50:19.914Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 269.48MB / 575.95MB 1.4s
+2025-12-10T09:50:20.062Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 233.83MB / 324.44MB 1.7s
+2025-12-10T09:50:20.211Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 269.48MB / 324.44MB 1.8s
+2025-12-10T09:50:20.211Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 314.57MB / 575.95MB 1.7s
+2025-12-10T09:50:20.361Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 309.33MB / 324.44MB 2.0s
+2025-12-10T09:50:20.511Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 451.94MB / 8.61GB 2.3s
+2025-12-10T09:50:20.511Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 362.81MB / 575.95MB 2.0s
+2025-12-10T09:50:20.661Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 298.84MB / 1.44GB 2.0s
+2025-12-10T09:50:20.796Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 324.44MB / 324.44MB 2.3s done
+2025-12-10T09:50:20.796Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 421.53MB / 575.95MB 2.3s
+2025-12-10T09:50:20.796Z [INFO] #6 sha256:150ae9de14cf67d192ab855eb94172865ba70f5b4b2e832ffed3e8f1df6307f5 6.89kB / 6.89kB 0.0s done
+2025-12-10T09:50:20.990Z [INFO] #6 sha256:95c4042ee7b43d473bcc80f264a4d7c6e8634d18cb2e3dba58277b7b5645840f 186B / 186B 0.0s done
+2025-12-10T09:50:20.990Z [INFO] #6 sha256:8c0575e6ec2e0dccea3445e36b0cd99d4c237c136d86e2400b710de22f1e6460 23.07MB / 57.37MB 0.2s
+2025-12-10T09:50:21.136Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 475.00MB / 575.95MB 2.6s
+2025-12-10T09:50:21.136Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 371.20MB / 1.44GB 2.4s
+2025-12-10T09:50:21.136Z [INFO] #6 sha256:8c0575e6ec2e0dccea3445e36b0cd99d4c237c136d86e2400b710de22f1e6460 57.37MB / 57.37MB 0.3s
+2025-12-10T09:50:21.302Z [INFO] #6 sha256:8c0575e6ec2e0dccea3445e36b0cd99d4c237c136d86e2400b710de22f1e6460 57.37MB / 57.37MB 0.3s done
+2025-12-10T09:50:21.302Z [INFO] #6 sha256:bd06d3ff253296357a1a441787d5026e6f69aadadf9296fd6ae3fc3b11fd1cbc 4.54MB / 4.54MB 0.1s done
+2025-12-10T09:50:21.419Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 526.39MB / 575.95MB 2.9s
+2025-12-10T09:50:21.419Z [INFO] #6 sha256:afad30e59d72d5c8df4023014c983e457f21818971775c4224163595ec20b69f 29.75MB / 29.75MB 0.2s done
+2025-12-10T09:50:21.602Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 557.84MB / 575.95MB 3.0s
+2025-12-10T09:50:21.602Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 481.30MB / 1.44GB 3.0s
+2025-12-10T09:50:21.602Z [INFO] #6 extracting sha256:afad30e59d72d5c8df4023014c983e457f21818971775c4224163595ec20b69f
+2025-12-10T09:50:22.052Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 575.95MB / 575.95MB 3.4s done
+2025-12-10T09:50:22.203Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 577.77MB / 1.44GB 3.6s
+2025-12-10T09:50:22.502Z [INFO] #6 extracting sha256:afad30e59d72d5c8df4023014c983e457f21818971775c4224163595ec20b69f 1.0s done
+2025-12-10T09:50:22.502Z [INFO] #6 extracting sha256:bd06d3ff253296357a1a441787d5026e6f69aadadf9296fd6ae3fc3b11fd1cbc
+2025-12-10T09:50:22.959Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 896.53MB / 8.61GB 4.7s
+2025-12-10T09:50:22.959Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 658.51MB / 1.44GB 4.4s
+2025-12-10T09:50:23.403Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 738.20MB / 1.44GB 4.8s
+2025-12-10T09:50:24.003Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 826.28MB / 1.44GB 5.4s
+2025-12-10T09:50:24.152Z [INFO] #6 extracting sha256:bd06d3ff253296357a1a441787d5026e6f69aadadf9296fd6ae3fc3b11fd1cbc 1.6s done
+2025-12-10T09:50:24.152Z [INFO] #6 extracting sha256:8c0575e6ec2e0dccea3445e36b0cd99d4c237c136d86e2400b710de22f1e6460
+2025-12-10T09:50:24.752Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 910.16MB / 1.44GB 6.2s
+2025-12-10T09:50:25.181Z [INFO] #6 extracting sha256:8c0575e6ec2e0dccea3445e36b0cd99d4c237c136d86e2400b710de22f1e6460 1.0s done
+2025-12-10T09:50:25.181Z [INFO] #6 extracting sha256:95c4042ee7b43d473bcc80f264a4d7c6e8634d18cb2e3dba58277b7b5645840f 0.1s done
+2025-12-10T09:50:25.352Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 1.02GB / 1.44GB 6.8s
+2025-12-10T09:50:25.352Z [INFO] #6 extracting sha256:150ae9de14cf67d192ab855eb94172865ba70f5b4b2e832ffed3e8f1df6307f5 0.1s done
+2025-12-10T09:50:25.503Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 1.33GB / 8.61GB 7.2s
+2025-12-10T09:50:25.802Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 1.10GB / 1.44GB 7.2s
+2025-12-10T09:50:26.252Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 1.18GB / 1.44GB 7.7s
+2025-12-10T09:50:26.706Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 1.28GB / 1.44GB 8.1s
+2025-12-10T09:50:27.302Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 1.37GB / 1.44GB 8.7s
+2025-12-10T09:50:27.602Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 1.77GB / 8.61GB 9.3s
+2025-12-10T09:50:28.220Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 1.44GB / 1.44GB 9.5s done
+2025-12-10T09:50:28.220Z [INFO] #6 extracting sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0
+2025-12-10T09:50:29.870Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 2.21GB / 8.61GB 11.7s
+2025-12-10T09:50:32.270Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 2.66GB / 8.61GB 14.1s
+2025-12-10T09:50:34.970Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 3.11GB / 8.61GB 16.8s
+2025-12-10T09:50:37.520Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 3.56GB / 8.61GB 19.4s
+2025-12-10T09:50:40.070Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 4.02GB / 8.61GB 21.9s
+2025-12-10T09:50:42.771Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 4.47GB / 8.61GB 24.6s
+2025-12-10T09:50:43.657Z [INFO] #6 extracting sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 15.4s done
+2025-12-10T09:50:43.657Z [INFO] #6 extracting sha256:77b0ceda29ac0c8b985431cc5a073a2e45f89103d83877451694b5e13be7c794 0.0s done
+2025-12-10T09:50:43.657Z [INFO] #6 extracting sha256:6fd18a5204307c56c8849e2653f9b154d15c95c565e05d93d2b407af98b620aa 0.1s done
+2025-12-10T09:50:43.820Z [INFO] #6 extracting sha256:3b176c2fc716d64847e7a75a3572297f05a2f4d7f8d649ce1dd1c687350f9ef4 0.1s done
+2025-12-10T09:50:43.820Z [INFO] #6 extracting sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd
+2025-12-10T09:50:45.620Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 4.93GB / 8.61GB 27.5s
+2025-12-10T09:50:48.028Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 5.38GB / 8.61GB 29.9s
+2025-12-10T09:50:50.121Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 5.82GB / 8.61GB 32.0s
+2025-12-10T09:50:51.320Z [INFO] #6 extracting sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 7.5s done
+2025-12-10T09:50:51.320Z [INFO] #6 extracting sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5
+2025-12-10T09:50:52.370Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 6.27GB / 8.61GB 34.2s
+2025-12-10T09:50:54.620Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 6.70GB / 8.61GB 36.5s
+2025-12-10T09:50:57.020Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 7.15GB / 8.61GB 38.9s
+2025-12-10T09:50:59.420Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 7.60GB / 8.61GB 41.3s
+2025-12-10T09:51:01.976Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 8.05GB / 8.61GB 43.8s
+2025-12-10T09:51:04.025Z [INFO] #6 extracting sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 12.8s done
+2025-12-10T09:51:04.127Z [INFO] #6 extracting sha256:441aff9995340c88bdcd146f92f65624a2bf184362c358d38e04fbf4f607d8c8 0.1s done
+2025-12-10T09:51:04.371Z [INFO] #6 extracting sha256:e663b4482920d0cd39564efcee0141d0b61617a855d0cf7fd21158f0a3709b71
+2025-12-10T09:51:04.511Z [INFO] #6 extracting sha256:e663b4482920d0cd39564efcee0141d0b61617a855d0cf7fd21158f0a3709b71 0.4s done
+2025-12-10T09:51:04.670Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 8.49GB / 8.61GB 46.4s
+2025-12-10T09:51:04.670Z [INFO] #6 extracting sha256:0a57e7d8cd83f656b0e19ff23a186fd77527f45c232cc8cbf4132d7a9d61e44b
+2025-12-10T09:51:05.111Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 8.61GB / 8.61GB 46.9s done
+2025-12-10T09:51:07.542Z [INFO] #6 extracting sha256:0a57e7d8cd83f656b0e19ff23a186fd77527f45c232cc8cbf4132d7a9d61e44b 3.0s done
+2025-12-10T09:51:07.542Z [INFO] #6 DONE 49.5s
+2025-12-10T09:51:07.693Z [INFO] #6 [ 1/16] FROM docker.io/runpod/worker-comfyui:5.5.0-base@sha256:391483d34581f3d27d6a2d9c89a7059642d1773084ec0cd7360dead654a3692d
+2025-12-10T09:51:07.693Z [INFO] #6 extracting sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f
+2025-12-10T09:52:11.941Z [INFO] #6 extracting sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 64.4s done
+2025-12-10T09:52:11.941Z [INFO] #6 DONE 113.9s
+2025-12-10T09:52:12.063Z [INFO] #6 [ 1/16] FROM docker.io/runpod/worker-comfyui:5.5.0-base@sha256:391483d34581f3d27d6a2d9c89a7059642d1773084ec0cd7360dead654a3692d
+2025-12-10T09:52:12.063Z [INFO] #6 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0.1s done
+2025-12-10T09:52:12.063Z [INFO] #6 DONE 114.1s
+2025-12-10T09:52:12.264Z [INFO] #6 [ 1/16] FROM docker.io/runpod/worker-comfyui:5.5.0-base@sha256:391483d34581f3d27d6a2d9c89a7059642d1773084ec0cd7360dead654a3692d
+2025-12-10T09:52:12.264Z [INFO] #6 extracting sha256:26caf4eaf3a9c104c153682d9f63f77da219a2d9cff858b90f0f1f632fb4fdd0 0.1s done
+2025-12-10T09:52:12.264Z [INFO] #6 extracting sha256:f4a5f976b717e8a4cf6b7e8ec9d79ec355b3b8e6e2ac7991e1ea06615d09f250
+2025-12-10T09:52:16.124Z [INFO] #6 extracting sha256:f4a5f976b717e8a4cf6b7e8ec9d79ec355b3b8e6e2ac7991e1ea06615d09f250 4.0s done
+2025-12-10T09:52:16.124Z [INFO] #6 DONE 118.1s
+2025-12-10T09:52:16.247Z [INFO] #6 [ 1/16] FROM docker.io/runpod/worker-comfyui:5.5.0-base@sha256:391483d34581f3d27d6a2d9c89a7059642d1773084ec0cd7360dead654a3692d
+2025-12-10T09:52:16.247Z [INFO] #6 extracting sha256:55bd96143498e8d5fb5e059a868c39d78b1a797937950f84743a64bd1642803b 0.1s done
+2025-12-10T09:52:16.247Z [INFO] #6 extracting sha256:72f7f36bae4c9f40f0f67ecdfae2a846b2e67b60534c6ee2ed05708b2fe7fc56 0.1s done
+2025-12-10T09:52:16.247Z [INFO] #6 DONE 118.2s
+2025-12-10T09:52:16.367Z [INFO] #6 [ 1/16] FROM docker.io/runpod/worker-comfyui:5.5.0-base@sha256:391483d34581f3d27d6a2d9c89a7059642d1773084ec0cd7360dead654a3692d
+2025-12-10T09:52:16.367Z [INFO] #6 extracting sha256:3ba1aa0fd3f9afe20818cf056bf31d264006c84db440fecdf464960056751af9 0.1s done
+2025-12-10T09:52:16.367Z [INFO] #6 extracting sha256:7925af29e8bf64f54eca8c9b411874b8ff12b87b3e9d3a654935fd2ad7ae4f59 0.1s done
+2025-12-10T09:52:16.487Z [INFO] #6 extracting sha256:da67f0eb18cf29b985fc2aa97248e2fc482b9e6cf0a0cd69f0568cd45b5d2514 0.1s done
+2025-12-10T09:52:16.487Z [INFO] #6 extracting sha256:9d2e102127f9ba2c2ac52852c0c132001afb123518bf663e146b71b70bb6d7a3 0.1s done
+2025-12-10T09:52:16.487Z [INFO] #6 DONE 118.5s
+2025-12-10T09:52:16.638Z [INFO] #7 [ 2/16] RUN comfy node install --exit-on-fail comfyui-gguf@1.1.9
+2025-12-10T09:52:17.369Z [INFO] #7 0.882 Execute from: /comfyui
+2025-12-10T09:52:17.369Z [INFO] #7 0.882 Command: ['/opt/venv/bin/python',
+2025-12-10T09:52:17.369Z [INFO] #7 0.882 '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py', 'install', '--exit-on-fail',
+2025-12-10T09:52:17.369Z [INFO] #7 0.882 'comfyui-gguf@1.1.9']
+2025-12-10T09:52:19.298Z [INFO] #7 2.811 FETCH DATA from:
+2025-12-10T09:52:19.298Z [INFO] #7 2.811 /comfyui/user/default/ComfyUI-Manager/cache/1514988643_custom-node-list.json
+2025-12-10T09:52:19.298Z [INFO] #7 2.811 [DONE]
+2025-12-10T09:52:19.298Z [INFO] #7 2.811 install_node exit on fail:True...
+2025-12-10T09:52:19.298Z [INFO] #7 2.811
+2025-12-10T09:52:19.299Z [INFO] #7 2.811 Available version of 'comfyui-gguf'
+2025-12-10T09:52:19.299Z [INFO] #7 2.811 [2025-11-29] 1.1.9 --
+2025-12-10T09:52:19.299Z [INFO] #7 2.811 [2025-11-27] 1.1.8 --
+2025-12-10T09:52:19.299Z [INFO] #7 2.811 [2025-11-26] 1.1.7 --
+2025-12-10T09:52:19.299Z [INFO] #7 2.811 [2025-11-07] 1.1.6 --
+2025-12-10T09:52:19.299Z [INFO] #7 2.811 [2025-11-03] 1.1.5 --
+2025-12-10T09:52:19.299Z [INFO] #7 2.811 [2025-08-19] 1.1.4 --
+2025-12-10T09:52:19.299Z [INFO] #7 2.811 [2025-08-05] 1.1.3 --
+2025-12-10T09:52:19.299Z [INFO] #7 2.811 [2025-08-05] 1.1.2 --
+2025-12-10T09:52:19.299Z [INFO] #7 2.811 [2025-06-14] 1.1.1 --
+2025-12-10T09:52:19.299Z [INFO] #7 2.811 [2025-05-09] 1.1.0 --
+2025-12-10T09:52:19.299Z [INFO] #7 2.811
+2025-12-10T09:52:19.478Z [INFO] #7 DONE 3.0s
+2025-12-10T09:52:19.630Z [INFO] #8 [ 3/16] RUN comfy node install --exit-on-fail comfyui-kjnodes@1.2.0
+2025-12-10T09:52:20.349Z [INFO] #8 0.870 Execute from: /comfyui
+2025-12-10T09:52:20.500Z [INFO] #8 0.871 Command: ['/opt/venv/bin/python',
+2025-12-10T09:52:20.500Z [INFO] #8 0.871 '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py', 'install', '--exit-on-fail',
+2025-12-10T09:52:20.500Z [INFO] #8 0.871 'comfyui-kjnodes@1.2.0']
+2025-12-10T09:52:29.927Z [INFO] #8 10.45 FETCH DATA from:
+2025-12-10T09:52:29.927Z [INFO] #8 10.45 /comfyui/user/default/ComfyUI-Manager/cache/1514988643_custom-node-list.json
+2025-12-10T09:52:29.927Z [INFO] #8 10.45 [DONE]
+2025-12-10T09:52:29.927Z [INFO] #8 10.45 install_node exit on fail:True...
+2025-12-10T09:52:29.927Z [INFO] #8 10.45 Install: pip packages
+2025-12-10T09:52:29.927Z [INFO] #8 10.45
+2025-12-10T09:52:29.927Z [INFO] #8 10.45 ## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python', '-m', 'uv', 'pip',
+2025-12-10T09:52:29.927Z [INFO] #8 10.45 'install', 'pillow>=10.3.0']
+2025-12-10T09:52:29.927Z [INFO] #8 10.45 'install', 'scipy']
+2025-12-10T09:52:29.927Z [INFO] #8 10.45 'install', 'color-matcher']
+2025-12-10T09:52:29.927Z [INFO] #8 10.45 'install', 'matplotlib']
+2025-12-10T09:52:29.927Z [INFO] #8 10.45 'install', 'huggingface_hub']
+2025-12-10T09:52:29.927Z [INFO] #8 10.45 'install', 'mss']
+2025-12-10T09:52:29.927Z [INFO] #8 10.45 'install', 'opencv-python-headless']
+2025-12-10T09:52:29.928Z [INFO] #8 10.45 1/1 [INSTALLED] comfyui-kjnodes                                   [1.2.0]
+2025-12-10T09:52:29.928Z [INFO] #8 10.45
+2025-12-10T09:52:30.332Z [INFO] #8 DONE 10.9s
+2025-12-10T09:52:30.484Z [INFO] #9 [ 4/16] RUN comfy node install --exit-on-fail comfy-mtb@0.5.4
+2025-12-10T09:52:31.220Z [INFO] #9 0.887 Execute from: /comfyui
+2025-12-10T09:52:31.370Z [INFO] #9 0.887 Command: ['/opt/venv/bin/python',
+2025-12-10T09:52:31.370Z [INFO] #9 0.887 '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py', 'install', '--exit-on-fail',
+2025-12-10T09:52:31.370Z [INFO] #9 0.887 'comfy-mtb@0.5.4']
+2025-12-10T09:52:43.997Z [INFO] #9 13.66 FETCH DATA from:
+2025-12-10T09:52:43.997Z [INFO] #9 13.66 /comfyui/user/default/ComfyUI-Manager/cache/1514988643_custom-node-list.json
+2025-12-10T09:52:43.997Z [INFO] #9 13.66 [DONE]
+2025-12-10T09:52:43.997Z [INFO] #9 13.66 install_node exit on fail:True...
+2025-12-10T09:52:43.997Z [INFO] #9 13.66 Install: pip packages
+2025-12-10T09:52:43.997Z [INFO] #9 13.66
+2025-12-10T09:52:43.997Z [INFO] #9 13.66 ## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python', '-m', 'uv', 'pip',
+2025-12-10T09:52:43.997Z [INFO] #9 13.66 'install', 'qrcode']
+2025-12-10T09:52:43.997Z [INFO] #9 13.66 'install', 'onnxruntime-gpu']
+2025-12-10T09:52:43.997Z [INFO] #9 13.66 'install', 'requirements-parser']
+2025-12-10T09:52:43.997Z [INFO] #9 13.66 'install', 'rembg']
+2025-12-10T09:52:43.997Z [INFO] #9 13.66 'install', 'imageio_ffmpeg']
+2025-12-10T09:52:43.997Z [INFO] #9 13.66 'install', 'rich']
+2025-12-10T09:52:43.997Z [INFO] #9 13.66 'install', 'rich_argparse']
+2025-12-10T09:52:43.997Z [INFO] #9 13.66 'install', 'matplotlib']
+2025-12-10T09:52:43.998Z [INFO] #9 13.66 ## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python', '-m', 'uv', 'pip',
+2025-12-10T09:52:43.998Z [INFO] #9 13.66 'install', 'pillow']
+2025-12-10T09:52:43.998Z [INFO] #9 13.66
+2025-12-10T09:52:43.998Z [INFO] #9 13.66 'install', 'cachetools']
+2025-12-10T09:52:43.998Z [INFO] #9 13.66 [ComfyUI-Manager] skip black listed pip installation: 'transformers'
+2025-12-10T09:52:43.998Z [INFO] #9 13.66 Install: install script
+2025-12-10T09:52:43.998Z [INFO] #9 13.66 ## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python', 'install.py']
+2025-12-10T09:52:43.998Z [INFO] #9 13.66 [33m[1m [0m[0m [33m[3mmtb doesn't need an install script anymore.[0m[0m
+2025-12-10T09:52:43.998Z [INFO] #9 13.66 1/1 [INSTALLED] comfy-mtb                                         [0.5.4]
+2025-12-10T09:52:44.623Z [INFO] #9 DONE 14.3s
+2025-12-10T09:52:44.775Z [INFO] #10 [ 5/16] RUN comfy node install --exit-on-fail comfyui-videohelpersuite@1.7.8
+2025-12-10T09:52:45.547Z [INFO] #10 0.923 Execute from: /comfyui
+2025-12-10T09:52:45.698Z [INFO] #10 0.923 Command: ['/opt/venv/bin/python',
+2025-12-10T09:52:45.698Z [INFO] #10 0.923 '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py', 'install', '--exit-on-fail',
+2025-12-10T09:52:45.698Z [INFO] #10 0.923 'comfyui-videohelpersuite@1.7.8']
+2025-12-10T09:52:52.165Z [INFO] #10 7.541 FETCH DATA from:
+2025-12-10T09:52:52.165Z [INFO] #10 7.541 /comfyui/user/default/ComfyUI-Manager/cache/1514988643_custom-node-list.json
+2025-12-10T09:52:52.165Z [INFO] #10 7.541 [DONE]
+2025-12-10T09:52:52.165Z [INFO] #10 7.541 install_node exit on fail:True...
+2025-12-10T09:52:52.165Z [INFO] #10 7.541 Install: pip packages
+2025-12-10T09:52:52.165Z [INFO] #10 7.541
+2025-12-10T09:52:52.165Z [INFO] #10 7.541 ## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python', '-m', 'uv', 'pip',
+2025-12-10T09:52:52.165Z [INFO] #10 7.541 'install', 'opencv-python']
+2025-12-10T09:52:52.165Z [INFO] #10 7.541 'install', 'imageio-ffmpeg']
+2025-12-10T09:52:52.165Z [INFO] #10 7.541 1/1 [INSTALLED] comfyui-videohelpersuite                          [1.7.8]
+2025-12-10T09:52:52.407Z [INFO] #10 DONE 7.8s
+2025-12-10T09:52:52.559Z [INFO] #11 [ 6/16] RUN comfy node install --exit-on-fail comfyui-easy-use@1.3.4
+2025-12-10T09:52:53.292Z [INFO] #11 0.884 Execute from: /comfyui
+2025-12-10T09:52:53.443Z [INFO] #11 0.884 Command: ['/opt/venv/bin/python',
+2025-12-10T09:52:53.443Z [INFO] #11 0.884 '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py', 'install', '--exit-on-fail',
+2025-12-10T09:52:53.443Z [INFO] #11 0.884 'comfyui-easy-use@1.3.4']
+2025-12-10T09:53:02.614Z [INFO] #11 10.21 FETCH DATA from:
+2025-12-10T09:53:02.614Z [INFO] #11 10.21 /comfyui/user/default/ComfyUI-Manager/cache/1514988643_custom-node-list.json
+2025-12-10T09:53:02.614Z [INFO] #11 10.21 [DONE]
+2025-12-10T09:53:02.614Z [INFO] #11 10.21 install_node exit on fail:True...
+2025-12-10T09:53:02.614Z [INFO] #11 10.21 Install: pip packages
+2025-12-10T09:53:02.614Z [INFO] #11 10.21
+2025-12-10T09:53:02.614Z [INFO] #11 10.21 ## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python', '-m', 'uv', 'pip',
+2025-12-10T09:53:02.614Z [INFO] #11 10.21 'install', 'diffusers']
+2025-12-10T09:53:02.614Z [INFO] #11 10.21 'install', 'accelerate']
+2025-12-10T09:53:02.614Z [INFO] #11 10.21 'install', 'clip_interrogator>=0.6.0']
+2025-12-10T09:53:02.614Z [INFO] #11 10.21 'install', 'lark']
+2025-12-10T09:53:02.614Z [INFO] #11 10.21 'install', 'onnxruntime']
+2025-12-10T09:53:02.614Z [INFO] #11 10.21 'install', 'opencv-python-headless']
+2025-12-10T09:53:02.615Z [INFO] #11 10.21 'install', 'sentencepiece']
+2025-12-10T09:53:02.615Z [INFO] #11 10.21
+2025-12-10T09:53:02.615Z [INFO] #11 10.21 ## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python', '-m', 'uv', 'pip',
+2025-12-10T09:53:02.615Z [INFO] #11 10.21 'install', 'spandrel']
+2025-12-10T09:53:02.615Z [INFO] #11 10.21 'install', 'matplotlib']
+2025-12-10T09:53:02.615Z [INFO] #11 10.21 'install', 'peft']
+2025-12-10T09:53:02.615Z [INFO] #11 10.21 1/1 [INSTALLED] comfyui-easy-use                                  [1.3.4]
+2025-12-10T09:53:02.916Z [INFO] #11 DONE 10.5s
+2025-12-10T09:53:03.070Z [INFO] #12 [ 7/16] RUN comfy node install --exit-on-fail comfyui-frame-interpolation@1.0.7
+2025-12-10T09:53:03.823Z [INFO] #12 0.905 Execute from: /comfyui
+2025-12-10T09:53:03.974Z [INFO] #12 0.905 Command: ['/opt/venv/bin/python',
+2025-12-10T09:53:03.974Z [INFO] #12 0.905 '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py', 'install', '--exit-on-fail',
+2025-12-10T09:53:03.974Z [INFO] #12 0.905 'comfyui-frame-interpolation@1.0.7']
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 FETCH DATA from:
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 /comfyui/user/default/ComfyUI-Manager/cache/1514988643_custom-node-list.json
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 [DONE]
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 install_node exit on fail:True...
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Install: install script
+2025-12-10T09:53:28.242Z [INFO] #12 25.32
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 ## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python', 'install.py']
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Installing torch...
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Requirement already satisfied: torch in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 (2.8.0)
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Requirement already satisfied: filelock in
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch) (3.19.1)
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Requirement already satisfied: typing-extensions>=4.10.0 in
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch) (4.15.0)
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Requirement already satisfied: setuptools in
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch) (80.9.0)
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Requirement already satisfied: sympy>=1.13.3 in
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch) (1.14.0)
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Requirement already satisfied: networkx in
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch) (3.5)
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Requirement already satisfied: jinja2 in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 (from torch) (3.1.6)
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Requirement already satisfied: fsspec in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 (from torch) (2025.9.0)
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.8.93 in
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch) (12.8.93)
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cuda-runtime-cu12==12.8.90 in
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch) (12.8.90)
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cuda-cupti-cu12==12.8.90 in
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cudnn-cu12==9.10.2.21 in
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch) (9.10.2.21)
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cublas-cu12==12.8.4.1 in
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch) (12.8.4.1)
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cufft-cu12==11.3.3.83 in
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch) (11.3.3.83)
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Requirement already satisfied: nvidia-curand-cu12==10.3.9.90 in
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch) (10.3.9.90)
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cusolver-cu12==11.7.3.90 in
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch) (11.7.3.90)
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cusparse-cu12==12.5.8.93 in
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch) (12.5.8.93)
+2025-12-10T09:53:28.242Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cusparselt-cu12==0.7.1 in
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch) (0.7.1)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: nvidia-nccl-cu12==2.27.3 in
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch) (2.27.3)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: nvidia-nvtx-cu12==12.8.90 in
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch) (12.8.90)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: nvidia-nvjitlink-cu12==12.8.93 in
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch) (12.8.93)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cufile-cu12==1.13.1.3 in
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch) (1.13.1.3)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: triton==3.4.0 in
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch) (3.4.0)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: mpmath<1.4,>=1.1.0 in
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from sympy>=1.13.3->torch) (1.3.0)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: MarkupSafe>=2.0 in
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from jinja2->torch) (3.0.3)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Installing numpy...
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: numpy in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 (2.2.6)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Installing einops...
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: einops in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 (0.8.1)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Installing opencv-contrib-python...
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Collecting opencv-contrib-python
+2025-12-10T09:53:28.243Z [INFO] #12 25.32   Downloading
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 opencv_contrib_python-4.12.0.88-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x8
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 6_64.whl.metadata (19 kB)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: numpy<2.3.0,>=2 in
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from opencv-contrib-python) (2.2.6)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Downloading
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 6_64.whl (73.2 MB)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.2/73.2 MB 230.2 MB/s  0:00:00
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Installing collected packages: opencv-contrib-python
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Successfully installed opencv-contrib-python-4.12.0.88
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Installing kornia...
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: kornia in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: kornia_rs>=0.1.9 in
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from kornia) (0.1.9)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: packaging in
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from kornia) (25.0)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: torch>=1.9.1 in
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from kornia) (2.8.0)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: filelock in
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (3.19.1)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: typing-extensions>=4.10.0 in
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (4.15.0)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: setuptools in
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (80.9.0)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: sympy>=1.13.3 in
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (1.14.0)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: networkx in
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (3.5)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: jinja2 in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 (from torch>=1.9.1->kornia) (3.1.6)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: fsspec in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 (from torch>=1.9.1->kornia) (2025.9.0)
+2025-12-10T09:53:28.243Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.8.93 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (12.8.93)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cuda-runtime-cu12==12.8.90 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (12.8.90)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cuda-cupti-cu12==12.8.90 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cudnn-cu12==9.10.2.21 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (9.10.2.21)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cublas-cu12==12.8.4.1 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (12.8.4.1)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cufft-cu12==11.3.3.83 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (11.3.3.83)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: nvidia-curand-cu12==10.3.9.90 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (10.3.9.90)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cusolver-cu12==11.7.3.90 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (11.7.3.90)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cusparse-cu12==12.5.8.93 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (12.5.8.93)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cusparselt-cu12==0.7.1 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (0.7.1)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: nvidia-nccl-cu12==2.27.3 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (2.27.3)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: nvidia-nvtx-cu12==12.8.90 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: nvidia-nvjitlink-cu12==12.8.93 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cufile-cu12==1.13.1.3 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (1.13.1.3)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: triton==3.4.0 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (3.4.0)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: mpmath<1.4,>=1.1.0 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 sympy>=1.13.3->torch>=1.9.1->kornia) (1.3.0)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: MarkupSafe>=2.0 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from jinja2->torch>=1.9.1->kornia)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 (3.0.3)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Installing scipy...
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: scipy in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 (1.16.2)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: numpy<2.6,>=1.25.2 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from scipy) (2.2.6)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Installing Pillow...
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: Pillow in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 (11.3.0)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Installing torchvision...
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: torchvision in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (0.23.0)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: numpy in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 (from torchvision) (2.2.6)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: torch==2.8.0 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torchvision) (2.8.0)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torchvision) (11.3.0)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: filelock in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch==2.8.0->torchvision) (3.19.1)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: typing-extensions>=4.10.0 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch==2.8.0->torchvision) (4.15.0)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: setuptools in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch==2.8.0->torchvision) (80.9.0)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: sympy>=1.13.3 in
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch==2.8.0->torchvision) (1.14.0)
+2025-12-10T09:53:28.244Z [INFO] #12 25.32 Requirement already satisfied: networkx in
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch==2.8.0->torchvision) (3.5)
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 Requirement already satisfied: jinja2 in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 (from torch==2.8.0->torchvision) (3.1.6)
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 Requirement already satisfied: fsspec in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 (from torch==2.8.0->torchvision) (2025.9.0)
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.8.93 in
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch==2.8.0->torchvision)
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 (12.8.93)
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cuda-runtime-cu12==12.8.90 in
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 (12.8.90)
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cuda-cupti-cu12==12.8.90 in
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cudnn-cu12==9.10.2.21 in
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 (9.10.2.21)
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cublas-cu12==12.8.4.1 in
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 (12.8.4.1)
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cufft-cu12==11.3.3.83 in
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 (11.3.3.83)
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 Requirement already satisfied: nvidia-curand-cu12==10.3.9.90 in
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 (10.3.9.90)
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cusolver-cu12==11.7.3.90 in
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 (11.7.3.90)
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cusparse-cu12==12.5.8.93 in
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 (12.5.8.93)
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cusparselt-cu12==0.7.1 in
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch==2.8.0->torchvision) (0.7.1)
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 Requirement already satisfied: nvidia-nccl-cu12==2.27.3 in
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch==2.8.0->torchvision) (2.27.3)
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 Requirement already satisfied: nvidia-nvtx-cu12==12.8.90 in
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 Requirement already satisfied: nvidia-nvjitlink-cu12==12.8.93 in
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 Requirement already satisfied: nvidia-cufile-cu12==1.13.1.3 in
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 (1.13.1.3)
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 Requirement already satisfied: triton==3.4.0 in
+2025-12-10T09:53:28.245Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from torch==2.8.0->torchvision) (3.4.0)
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 Requirement already satisfied: mpmath<1.4,>=1.1.0 in
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 sympy>=1.13.3->torch==2.8.0->torchvision) (1.3.0)
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 Requirement already satisfied: MarkupSafe>=2.0 in
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 /opt/venv/lib/python3.12/site-packages (from jinja2->torch==2.8.0->torchvision)
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 (3.0.3)
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 Installing tqdm...
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 Requirement already satisfied: tqdm in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 (4.67.1)
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 Checking cupy...
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 Uninstall cupy if existed...
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 Installing cupy...
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 Collecting cupy-wheel
+2025-12-10T09:53:28.246Z [INFO] #12 25.32   Downloading cupy-wheel-12.3.0.tar.gz (2.9 kB)
+2025-12-10T09:53:28.246Z [INFO] #12 25.32   Preparing metadata (setup.py): started
+2025-12-10T09:53:28.246Z [INFO] #12 25.32   Preparing metadata (setup.py): finished with status 'done'
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 Collecting cupy-cuda12x==12.3.0 (from cupy-wheel)
+2025-12-10T09:53:28.246Z [INFO] #12 25.32   Downloading cupy_cuda12x-12.3.0-cp312-cp312-manylinux2014_x86_64.whl.metadata
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 (2.7 kB)
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 Collecting numpy<1.29,>=1.20 (from cupy-cuda12x==12.3.0->cupy-wheel)
+2025-12-10T09:53:28.246Z [INFO] #12 25.32   Downloading
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 (61 kB)
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 Collecting fastrlock>=0.5 (from cupy-cuda12x==12.3.0->cupy-wheel)
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 fastrlock-0.8.3-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_2
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 8_x86_64.whl.metadata (7.7 kB)
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 Downloading cupy_cuda12x-12.3.0-cp312-cp312-manylinux2014_x86_64.whl (82.1 MB)
+2025-12-10T09:53:28.246Z [INFO] #12 25.32    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.1/82.1 MB 144.5 MB/s  0:00:00
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 Downloading
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.0
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 MB)
+2025-12-10T09:53:28.246Z [INFO] #12 25.32    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.0/18.0 MB 238.0 MB/s  0:00:00
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 8_x86_64.whl (53 kB)
+2025-12-10T09:53:28.246Z [INFO] #12 25.32 Building wheels for collected packages: cupy-wheel
+2025-12-10T09:53:28.246Z [INFO] #12 25.32   Building wheel for cupy-wheel (setup.py): started
+2025-12-10T09:53:28.246Z [INFO] #12 25.32   Building wheel for cupy-wheel (setup.py): finished with status 'done'
+2025-12-10T09:53:28.247Z [INFO] #12 25.32   Created wheel for cupy-wheel: filename=cupy_wheel-12.3.0-py3-none-any.whl
+2025-12-10T09:53:28.247Z [INFO] #12 25.32 size=1007
+2025-12-10T09:53:28.247Z [INFO] #12 25.32 sha256=903a290e061ee2fdd9412148f8e14741eb3302ebfb37fee4f1935e238d3ce0cd
+2025-12-10T09:53:28.247Z [INFO] #12 25.32   Stored in directory:
+2025-12-10T09:53:28.247Z [INFO] #12 25.32 /root/.cache/pip/wheels/71/39/6c/8039cb60958346ad6f2870ef3ae75cada25f75c6049f908
+2025-12-10T09:53:28.247Z [INFO] #12 25.32 d42
+2025-12-10T09:53:28.247Z [INFO] #12 25.32 Successfully built cupy-wheel
+2025-12-10T09:53:28.247Z [INFO] #12 25.32 Installing collected packages: fastrlock, numpy, cupy-cuda12x, cupy-wheel
+2025-12-10T09:53:28.247Z [INFO] #12 25.32   Attempting uninstall: numpy
+2025-12-10T09:53:28.247Z [INFO] #12 25.32     Found existing installation: numpy 2.2.6
+2025-12-10T09:53:28.247Z [INFO] #12 25.32     Uninstalling numpy-2.2.6:
+2025-12-10T09:53:28.247Z [INFO] #12 25.32       Successfully uninstalled numpy-2.2.6
+2025-12-10T09:53:28.247Z [INFO] #12 25.32
+2025-12-10T09:53:28.247Z [INFO] #12 25.32 Successfully installed cupy-cuda12x-12.3.0 cupy-wheel-12.3.0 fastrlock-0.8.3
+2025-12-10T09:53:28.247Z [INFO] #12 25.32 numpy-1.26.4
+2025-12-10T09:53:28.247Z [INFO] #12 25.32 1/1 [INSTALLED] comfyui-frame-interpolation                       [1.0.7]
+2025-12-10T09:53:28.664Z [INFO] #12 DONE 25.7s
+2025-12-10T09:53:28.814Z [INFO] #13 [ 8/16] RUN comfy node install --exit-on-fail rgthree-comfy@1.0.2512092137
+2025-12-10T09:53:29.611Z [INFO] #13 0.948 Execute from: /comfyui
+2025-12-10T09:53:29.762Z [INFO] #13 0.949 Command: ['/opt/venv/bin/python',
+2025-12-10T09:53:29.762Z [INFO] #13 0.949 '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py', 'install', '--exit-on-fail',
+2025-12-10T09:53:29.762Z [INFO] #13 0.949 'rgthree-comfy@1.0.2512092137']
+2025-12-10T09:53:36.043Z [INFO] #13 7.380 FETCH DATA from:
+2025-12-10T09:53:36.043Z [INFO] #13 7.380 /comfyui/user/default/ComfyUI-Manager/cache/1514988643_custom-node-list.json
+2025-12-10T09:53:36.043Z [INFO] #13 7.380 [DONE]
+2025-12-10T09:53:36.043Z [INFO] #13 7.380 install_node exit on fail:True...
+2025-12-10T09:53:36.043Z [INFO] #13 7.380 Install: pip packages
+2025-12-10T09:53:36.043Z [INFO] #13 7.380 1/1 [INSTALLED] rgthree-comfy
+2025-12-10T09:53:36.044Z [INFO] #13 7.380 [1.0.2512092137]
+2025-12-10T09:53:36.044Z [INFO] #13 7.380
+2025-12-10T09:53:36.231Z [INFO] #13 DONE 7.6s
+2025-12-10T09:53:36.383Z [INFO] #14 [ 9/16] RUN comfy model download --url https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors --relative-path models/vae --filename wan_2.1_vae.safetensors
+2025-12-10T09:53:37.410Z [INFO] #14 1.178 Start downloading URL:
+2025-12-10T09:53:37.410Z [INFO] #14 1.178 https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_f
+2025-12-10T09:53:37.410Z [INFO] #14 1.178 iles/vae/wan_2.1_vae.safetensors into
+2025-12-10T09:53:37.410Z [INFO] #14 1.178 /comfyui/models/vae/wan_2.1_vae.safetensors
+2025-12-10T09:53:38.971Z [INFO] #14 2.739 Downloading 242 MB ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+2025-12-10T09:53:39.227Z [INFO] #14 DONE 3.0s
+2025-12-10T09:53:39.379Z [INFO] #15 [10/16] RUN comfy model download --url https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors --relative-path models/clip --filename umt5_xxl_fp8_e4m3fn_scaled.safetensors
+2025-12-10T09:53:40.345Z [INFO] #15 1.117 Start downloading URL:
+2025-12-10T09:53:40.345Z [INFO] #15 1.117 https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_f
+2025-12-10T09:53:40.345Z [INFO] #15 1.117 iles/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors into
+2025-12-10T09:53:40.345Z [INFO] #15 1.117 /comfyui/models/clip/umt5_xxl_fp8_e4m3fn_scaled.safetensors
+2025-12-10T09:54:06.607Z [INFO] #15 27.23 Downloading 6423 MB ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+2025-12-10T09:54:07.923Z [INFO] #15 DONE 28.7s
+2025-12-10T09:54:08.075Z [INFO] #16 [11/16] RUN comfy model download --url https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_Q8_0.gguf --relative-path models/diffusion_models --filename wan2.2_i2v_low_noise_14B_Q8_0.gguf
+2025-12-10T09:54:08.775Z [INFO] #16 0.851 Start downloading URL:
+2025-12-10T09:54:08.775Z [INFO] #16 0.851 https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repackaged/resolve/main/split_f
+2025-12-10T09:54:08.775Z [INFO] #16 0.851 iles/diffusion_models/wan2.2_i2v_low_noise_14B_Q8_0.gguf into
+2025-12-10T09:54:08.775Z [INFO] #16 0.851 /comfyui/models/diffusion_models/wan2.2_i2v_low_noise_14B_Q8_0.gguf
+2025-12-10T09:54:09.133Z [INFO] #16 1.209 ╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+2025-12-10T09:54:09.133Z [INFO] #16 1.209 │ /opt/venv/lib/python3.12/site-packages/comfy_cli/tracking.py:77 in wrapper   │
+2025-12-10T09:54:09.133Z [INFO] #16 1.209 │                                                                              │
+2025-12-10T09:54:09.133Z [INFO] #16 1.209 │    74 │   │   │   logging.debug(f"Tracking command: {command_name} with argu │
+2025-12-10T09:54:09.133Z [INFO] #16 1.209 │    75 │   │   │   track_event(command_name, properties=filtered_kwargs)      │
+2025-12-10T09:54:09.133Z [INFO] #16 1.209 │    76 │   │   │                                                              │
+2025-12-10T09:54:09.133Z [INFO] #16 1.209 │ ❱  77 │   │   │   return func(*args, **kwargs)                               │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │    78 │   │                                                                  │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │    79 │   │   return wrapper                                                 │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │    80                                                                        │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │                                                                              │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │ ╭───────────────────────────────── locals ─────────────────────────────────╮ │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │ │            args = ()                                                     │ │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │ │    command_name = 'model:download'                                       │ │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │ │ filtered_kwargs = {                                                      │ │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │ │                   │   '_ctx': <click.core.Context object at              │ │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │ │                   0x7c5d28aa61b0>,                                       │ │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │ │                   │   'url':                                             │ │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │ │                   'https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_rep… │ │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │ │                   │   'relative_path': 'models/diffusion_models',        │ │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │ │                   │   'filename': 'wan2.2_i2v_low_noise_14B_Q8_0.gguf',  │ │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │ │                   │   'set_civitai_api_token': None,                     │ │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │ │                   │   'set_hf_api_token': None,                          │ │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │ │                   │   'cli_version': '1.5.2',                            │ │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │ │                   │   'tracing_id':                                      │ │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │ │                   '7925697b-bc37-4795-9b00-0a3b20f52e8e'                 │ │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │ │                   }                                                      │ │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │ │          kwargs = {                                                      │ │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │ │                   │   'set_hf_api_token': None                           │ │
+2025-12-10T09:54:09.134Z [INFO] #16 1.209 │ │     sub_command = 'model'                                                │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ ╰──────────────────────────────────────────────────────────────────────────╯ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │                                                                              │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ /opt/venv/lib/python3.12/site-packages/comfy_cli/command/models/models.py:33 │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ 0 in download                                                                │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │   327 │   │   │   print(f"Model downloaded successfully to: {output_path}")  │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │   328 │   else:                                                              │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │   329 │   │   print(f"Start downloading URL: {url} into {local_filepath}")   │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ ❱ 330 │   │   download_file(url, local_filepath, headers)                    │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │   331                                                                        │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │   332                                                                        │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │   333 @app.command()                                                         │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ ╭───────────────────────────────── locals ─────────────────────────────────╮ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │                  _ctx = <click.core.Context object at 0x7c5d28aa61b0>    │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │     civitai_api_token = None                                             │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │              filename = 'wan2.2_i2v_low_noise_14B_Q8_0.gguf'             │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │               headers = None                                             │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │          hf_api_token = None                                             │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │        hf_branch_name = 'main'                                           │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │           hf_filename = 'wan2.2_i2v_low_noise_14B_Q8_0.gguf'             │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │        hf_folder_name = 'split_files/diffusion_models'                   │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │    is_civitai_api_url = False                                            │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │  is_civitai_model_url = False                                            │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │    is_huggingface_url = True                                             │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │        local_filename = 'wan2.2_i2v_low_noise_14B_Q8_0.gguf'             │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │        local_filepath = PosixPath('/comfyui/models/diffusion_models/wan… │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │              model_id = 'diffusion_models/wan2.2_i2v_low_noise_14B_Q8_0… │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │         relative_path = 'models/diffusion_models'                        │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │               repo_id = 'Comfy-Org/Wan_2.2_ComfyUI_repackaged'           │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │ set_civitai_api_token = None                                             │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │      set_hf_api_token = None                                             │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │                   url = 'https://huggingface.co/Comfy-Org/Wan_2.2_Comfy… │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ │            version_id = None                                             │ │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ /opt/venv/lib/python3.12/site-packages/comfy_cli/file_utils.py:86 in         │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │ download_file                                                                │
+2025-12-10T09:54:09.135Z [INFO] #16 1.209 │    83 │   │   │   │   │   local_filepath.unlink()                            │
+2025-12-10T09:54:09.136Z [INFO] #16 1.209 │    84 │   │   else:                                                          │
+2025-12-10T09:54:09.136Z [INFO] #16 1.209 │    85 │   │   │   status_reason = guess_status_code_reason(response.status_c │
+2025-12-10T09:54:09.136Z [INFO] #16 1.209 │ ❱  86 │   │   │   raise DownloadException(f"Failed to download file.\n{statu │
+2025-12-10T09:54:09.136Z [INFO] #16 1.209 │    87                                                                        │
+2025-12-10T09:54:09.136Z [INFO] #16 1.209 │    88                                                                        │
+2025-12-10T09:54:09.136Z [INFO] #16 1.209 │    89 def zip_files(zip_filename, includes=None):                            │
+2025-12-10T09:54:09.136Z [INFO] #16 1.209 │                                                                              │
+2025-12-10T09:54:09.136Z [INFO] #16 1.209 │ ╭───────────────────────────────── locals ─────────────────────────────────╮ │
+2025-12-10T09:54:09.136Z [INFO] #16 1.209 │ │        headers = None                                                    │ │
+2025-12-10T09:54:09.136Z [INFO] #16 1.209 │ │ local_filepath = PosixPath('/comfyui/models/diffusion_models/wan2.2_i2v… │ │
+2025-12-10T09:54:09.136Z [INFO] #16 1.209 │ │       response = <Response [404 Not Found]>                              │ │
+2025-12-10T09:54:09.136Z [INFO] #16 1.209 │ │  status_reason = 'File not found on server (404)'                        │ │
+2025-12-10T09:54:09.136Z [INFO] #16 1.209 │ │            url = 'https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repa… │ │
+2025-12-10T09:54:09.136Z [INFO] #16 1.209 │ ╰──────────────────────────────────────────────────────────────────────────╯ │
+2025-12-10T09:54:09.136Z [INFO] #16 1.209 ╰──────────────────────────────────────────────────────────────────────────────╯
+2025-12-10T09:54:09.136Z [INFO] #16 1.209 DownloadException: Failed to download file.
+2025-12-10T09:54:09.136Z [INFO] #16 1.209 File not found on server (404)
+2025-12-10T09:54:09.268Z [INFO] #16 ERROR: process "/bin/sh -c comfy model download --url https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_Q8_0.gguf --relative-path models/diffusion_models --filename wan2.2_i2v_low_noise_14B_Q8_0.gguf" did not complete successfully: exit code: 1
+2025-12-10T09:54:09.284Z [INFO] ------
+2025-12-10T09:54:09.284Z [INFO]  > [11/16] RUN comfy model download --url https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_Q8_0.gguf --relative-path models/diffusion_models --filename wan2.2_i2v_low_noise_14B_Q8_0.gguf:
+2025-12-10T09:54:09.284Z [INFO] 1.209 │ ╭───────────────────────────────── locals ─────────────────────────────────╮ │
+2025-12-10T09:54:09.284Z [INFO] 1.209 │ │        headers = None                                                    │ │
+2025-12-10T09:54:09.284Z [INFO] 1.209 │ │ local_filepath = PosixPath('/comfyui/models/diffusion_models/wan2.2_i2v… │ │
+2025-12-10T09:54:09.284Z [INFO] 1.209 │ │       response = <Response [404 Not Found]>                              │ │
+2025-12-10T09:54:09.284Z [INFO] 1.209 │ │  status_reason = 'File not found on server (404)'                        │ │
+2025-12-10T09:54:09.284Z [INFO] 1.209 │ │            url = 'https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repa… │ │
+2025-12-10T09:54:09.284Z [INFO] 1.209 │ ╰──────────────────────────────────────────────────────────────────────────╯ │
+2025-12-10T09:54:09.284Z [INFO] 1.209 ╰──────────────────────────────────────────────────────────────────────────────╯
+2025-12-10T09:54:09.284Z [INFO] 1.209 DownloadException: Failed to download file.
+2025-12-10T09:54:09.284Z [INFO] 1.209 File not found on server (404)
+2025-12-10T09:54:09.284Z [INFO] WARNING: current commit information was not captured by the build: git was not found in the system: exec: "git": executable file not found in $PATH
+2025-12-10T09:54:09.286Z [INFO] Dockerfile:17
+2025-12-10T09:54:09.286Z [INFO] --------------------
+2025-12-10T09:54:09.286Z [INFO]   15 |     RUN comfy model download --url https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors --relative-path models/clip --filename umt5_xxl_fp8_e4m3fn_scaled.safetensors
+2025-12-10T09:54:09.286Z [INFO]   16 |     # Wan 2.2 I2V models (GGUF format)
+2025-12-10T09:54:09.286Z [INFO]   17 | >>> RUN comfy model download --url https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_Q8_0.gguf --relative-path models/diffusion_models --filename wan2.2_i2v_low_noise_14B_Q8_0.gguf
+2025-12-10T09:54:09.286Z [INFO]   18 |     RUN comfy model download --url https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_Q8_0.gguf --relative-path models/diffusion_models --filename wan2.2_i2v_high_noise_14B_Q8_0.gguf
+2025-12-10T09:54:09.286Z [INFO]   19 |
+2025-12-10T09:54:09.286Z [ERROR] ERROR: failed to build: failed to solve: process "/bin/sh -c comfy model download --url https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_Q8_0.gguf --relative-path models/diffusion_models --filename wan2.2_i2v_low_noise_14B_Q8_0.gguf" did not complete successfully: exit code: 1
+2025-12-10T09:54:09.300Z [ERROR] Build failed in the first attempt. Will retry one more time before exiting.
+2025-12-10T09:54:09.388Z [INFO] affectionate_ishizaka
+2025-12-10T09:54:09.504Z [INFO] #0 building with "affectionate_ishizaka" instance using docker-container driver
+2025-12-10T09:54:09.504Z [INFO] #1 [internal] booting buildkit
+2025-12-10T09:54:09.655Z [INFO] #1 pulling image moby/buildkit:v0.17.2
+2025-12-10T09:54:09.723Z [INFO] #1 pulling image moby/buildkit:v0.17.2 0.2s done
+2025-12-10T09:54:09.873Z [INFO] #1 creating container buildx_buildkit_affectionate_ishizaka0
+2025-12-10T09:54:10.544Z [INFO] #1 creating container buildx_buildkit_affectionate_ishizaka0 0.8s done
+2025-12-10T09:54:10.645Z [INFO] #1 DONE 1.0s
+2025-12-10T09:54:10.645Z [INFO] #2 [internal] load build definition from Dockerfile
+2025-12-10T09:54:10.645Z [INFO] #2 transferring dockerfile: 2.77kB done
+2025-12-10T09:54:10.853Z [INFO] #2 DONE 0.0s
+2025-12-10T09:54:10.853Z [INFO] #3 [auth] runpod/worker-comfyui:pull token for registry-1.docker.io
+2025-12-10T09:54:10.853Z [INFO] #3 DONE 0.0s
+2025-12-10T09:54:10.854Z [INFO] #4 [internal] load metadata for docker.io/runpod/worker-comfyui:5.5.0-base
+2025-12-10T09:54:11.033Z [INFO] #4 DONE 0.4s
+2025-12-10T09:54:11.162Z [INFO] #5 [internal] load .dockerignore
+2025-12-10T09:54:11.163Z [INFO] #5 transferring context: 2B done
+2025-12-10T09:54:11.163Z [INFO] #5 DONE 0.0s
+2025-12-10T09:54:11.163Z [INFO] #6 [ 1/16] FROM docker.io/runpod/worker-comfyui:5.5.0-base@sha256:391483d34581f3d27d6a2d9c89a7059642d1773084ec0cd7360dead654a3692d
+2025-12-10T09:54:11.163Z [INFO] #6 resolve docker.io/runpod/worker-comfyui:5.5.0-base@sha256:391483d34581f3d27d6a2d9c89a7059642d1773084ec0cd7360dead654a3692d done
+2025-12-10T09:54:11.163Z [INFO] #6 sha256:9d2e102127f9ba2c2ac52852c0c132001afb123518bf663e146b71b70bb6d7a3 661B / 661B 0.0s done
+2025-12-10T09:54:11.343Z [INFO] #6 sha256:da67f0eb18cf29b985fc2aa97248e2fc482b9e6cf0a0cd69f0568cd45b5d2514 665B / 665B 0.1s done
+2025-12-10T09:54:11.343Z [INFO] #6 sha256:72f7f36bae4c9f40f0f67ecdfae2a846b2e67b60534c6ee2ed05708b2fe7fc56 600B / 600B 0.1s done
+2025-12-10T09:54:11.343Z [INFO] #6 sha256:3ba1aa0fd3f9afe20818cf056bf31d264006c84db440fecdf464960056751af9 1.00kB / 1.00kB 0.0s done
+2025-12-10T09:54:11.343Z [INFO] #6 sha256:7925af29e8bf64f54eca8c9b411874b8ff12b87b3e9d3a654935fd2ad7ae4f59 997B / 997B 0.1s done
+2025-12-10T09:54:11.343Z [INFO] #6 sha256:55bd96143498e8d5fb5e059a868c39d78b1a797937950f84743a64bd1642803b 10.04kB / 10.04kB 0.0s done
+2025-12-10T09:54:11.343Z [INFO] #6 sha256:26caf4eaf3a9c104c153682d9f63f77da219a2d9cff858b90f0f1f632fb4fdd0 294B / 294B 0.0s done
+2025-12-10T09:54:11.343Z [INFO] #6 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 32B / 32B 0.0s done
+2025-12-10T09:54:11.344Z [INFO] #6 sha256:f4a5f976b717e8a4cf6b7e8ec9d79ec355b3b8e6e2ac7991e1ea06615d09f250 22.02MB / 45.52MB 0.2s
+2025-12-10T09:54:11.445Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 10.49MB / 8.61GB 0.2s
+2025-12-10T09:54:11.445Z [INFO] #6 sha256:0a57e7d8cd83f656b0e19ff23a186fd77527f45c232cc8cbf4132d7a9d61e44b 8.26MB / 45.86MB 0.2s
+2025-12-10T09:54:11.445Z [INFO] #6 sha256:e663b4482920d0cd39564efcee0141d0b61617a855d0cf7fd21158f0a3709b71 21.76MB / 21.76MB 0.2s done
+2025-12-10T09:54:11.576Z [INFO] #6 sha256:f4a5f976b717e8a4cf6b7e8ec9d79ec355b3b8e6e2ac7991e1ea06615d09f250 45.52MB / 45.52MB 0.3s done
+2025-12-10T09:54:11.576Z [INFO] #6 sha256:0a57e7d8cd83f656b0e19ff23a186fd77527f45c232cc8cbf4132d7a9d61e44b 45.86MB / 45.86MB 0.3s done
+2025-12-10T09:54:11.576Z [INFO] #6 sha256:441aff9995340c88bdcd146f92f65624a2bf184362c358d38e04fbf4f607d8c8 637B / 637B 0.0s done
+2025-12-10T09:54:11.689Z [INFO] #6 sha256:3b176c2fc716d64847e7a75a3572297f05a2f4d7f8d649ce1dd1c687350f9ef4 1.52kB / 1.52kB 0.0s done
+2025-12-10T09:54:11.689Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 29.36MB / 324.44MB 0.2s
+2025-12-10T09:54:11.689Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 23.07MB / 575.95MB 0.2s
+2025-12-10T09:54:11.689Z [INFO] #6 sha256:6fd18a5204307c56c8849e2653f9b154d15c95c565e05d93d2b407af98b620aa 1.68kB / 1.68kB 0.0s done
+2025-12-10T09:54:11.689Z [INFO] #6 sha256:77b0ceda29ac0c8b985431cc5a073a2e45f89103d83877451694b5e13be7c794 59.36kB / 59.36kB 0.0s done
+2025-12-10T09:54:11.809Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 60.82MB / 324.44MB 0.3s
+2025-12-10T09:54:11.809Z [INFO] #6 sha256:150ae9de14cf67d192ab855eb94172865ba70f5b4b2e832ffed3e8f1df6307f5 6.89kB / 6.89kB 0.0s done
+2025-12-10T09:54:11.928Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 89.13MB / 324.44MB 0.5s
+2025-12-10T09:54:11.928Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 13.63MB / 1.44GB 0.2s
+2025-12-10T09:54:12.036Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 58.72MB / 575.95MB 0.5s
+2025-12-10T09:54:12.336Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 120.59MB / 324.44MB 0.8s
+2025-12-10T09:54:12.336Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 108.00MB / 575.95MB 0.8s
+2025-12-10T09:54:12.489Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 152.04MB / 324.44MB 0.9s
+2025-12-10T09:54:12.489Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 142.61MB / 575.95MB 0.9s
+2025-12-10T09:54:12.489Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 109.05MB / 1.44GB 0.8s
+2025-12-10T09:54:12.636Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 178.26MB / 575.95MB 1.1s
+2025-12-10T09:54:12.785Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 171.97MB / 324.44MB 1.2s
+2025-12-10T09:54:12.936Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 213.91MB / 575.95MB 1.4s
+2025-12-10T09:54:13.086Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 206.57MB / 324.44MB 1.5s
+2025-12-10T09:54:13.086Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 193.99MB / 1.44GB 1.4s
+2025-12-10T09:54:13.236Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 227.54MB / 324.44MB 1.7s
+2025-12-10T09:54:13.236Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 273.68MB / 575.95MB 1.7s
+2025-12-10T09:54:13.536Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 255.85MB / 324.44MB 2.0s
+2025-12-10T09:54:13.536Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 317.72MB / 575.95MB 2.0s
+2025-12-10T09:54:13.685Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 278.92MB / 324.44MB 2.1s
+2025-12-10T09:54:13.685Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 350.22MB / 575.95MB 2.1s
+2025-12-10T09:54:13.686Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 281.02MB / 1.44GB 2.0s
+2025-12-10T09:54:13.836Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 443.55MB / 8.61GB 2.6s
+2025-12-10T09:54:13.836Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 316.67MB / 324.44MB 2.3s
+2025-12-10T09:54:13.836Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 382.73MB / 575.95MB 2.3s
+2025-12-10T09:54:13.990Z [INFO] #6 sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 324.44MB / 324.44MB 2.4s done
+2025-12-10T09:54:13.990Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 415.24MB / 575.95MB 2.4s
+2025-12-10T09:54:13.990Z [INFO] #6 sha256:95c4042ee7b43d473bcc80f264a4d7c6e8634d18cb2e3dba58277b7b5645840f 186B / 186B 0.0s done
+2025-12-10T09:54:14.136Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 450.89MB / 575.95MB 2.6s
+2025-12-10T09:54:14.136Z [INFO] #6 sha256:8c0575e6ec2e0dccea3445e36b0cd99d4c237c136d86e2400b710de22f1e6460 25.17MB / 57.37MB 0.2s
+2025-12-10T09:54:14.273Z [INFO] #6 sha256:8c0575e6ec2e0dccea3445e36b0cd99d4c237c136d86e2400b710de22f1e6460 57.37MB / 57.37MB 0.3s done
+2025-12-10T09:54:14.273Z [INFO] #6 sha256:bd06d3ff253296357a1a441787d5026e6f69aadadf9296fd6ae3fc3b11fd1cbc 4.54MB / 4.54MB 0.1s done
+2025-12-10T09:54:14.426Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 489.68MB / 575.95MB 2.9s
+2025-12-10T09:54:14.426Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 368.05MB / 1.44GB 2.6s
+2025-12-10T09:54:14.426Z [INFO] #6 sha256:afad30e59d72d5c8df4023014c983e457f21818971775c4224163595ec20b69f 29.75MB / 29.75MB 0.2s
+2025-12-10T09:54:14.585Z [INFO] #6 sha256:afad30e59d72d5c8df4023014c983e457f21818971775c4224163595ec20b69f 29.75MB / 29.75MB 0.2s done
+2025-12-10T09:54:14.585Z [INFO] #6 extracting sha256:afad30e59d72d5c8df4023014c983e457f21818971775c4224163595ec20b69f
+2025-12-10T09:54:14.735Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 532.68MB / 575.95MB 3.2s
+2025-12-10T09:54:14.735Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 450.89MB / 1.44GB 3.0s
+2025-12-10T09:54:15.036Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 567.28MB / 575.95MB 3.5s
+2025-12-10T09:54:15.185Z [INFO] #6 sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 575.95MB / 575.95MB 3.6s done
+2025-12-10T09:54:15.185Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 530.58MB / 1.44GB 3.5s
+2025-12-10T09:54:15.472Z [INFO] #6 extracting sha256:afad30e59d72d5c8df4023014c983e457f21818971775c4224163595ec20b69f 1.0s done
+2025-12-10T09:54:15.635Z [INFO] #6 extracting sha256:bd06d3ff253296357a1a441787d5026e6f69aadadf9296fd6ae3fc3b11fd1cbc
+2025-12-10T09:54:15.787Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 620.76MB / 1.44GB 4.1s
+2025-12-10T09:54:16.086Z [INFO] #6 extracting sha256:bd06d3ff253296357a1a441787d5026e6f69aadadf9296fd6ae3fc3b11fd1cbc 0.5s done
+2025-12-10T09:54:16.086Z [INFO] #6 extracting sha256:8c0575e6ec2e0dccea3445e36b0cd99d4c237c136d86e2400b710de22f1e6460
+2025-12-10T09:54:16.235Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 696.25MB / 1.44GB 4.5s
+2025-12-10T09:54:16.536Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 895.48MB / 8.61GB 5.3s
+2025-12-10T09:54:16.685Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 779.09MB / 1.44GB 5.0s
+2025-12-10T09:54:16.990Z [INFO] #6 extracting sha256:8c0575e6ec2e0dccea3445e36b0cd99d4c237c136d86e2400b710de22f1e6460 1.0s done
+2025-12-10T09:54:16.991Z [INFO] #6 extracting sha256:95c4042ee7b43d473bcc80f264a4d7c6e8634d18cb2e3dba58277b7b5645840f
+2025-12-10T09:54:17.138Z [INFO] #6 extracting sha256:95c4042ee7b43d473bcc80f264a4d7c6e8634d18cb2e3dba58277b7b5645840f 0.1s done
+2025-12-10T09:54:17.138Z [INFO] #6 extracting sha256:150ae9de14cf67d192ab855eb94172865ba70f5b4b2e832ffed3e8f1df6307f5 0.1s done
+2025-12-10T09:54:17.286Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 851.44MB / 1.44GB 5.6s
+2025-12-10T09:54:17.743Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 923.80MB / 1.44GB 6.0s
+2025-12-10T09:54:18.186Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 998.24MB / 1.44GB 6.5s
+2025-12-10T09:54:18.636Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 1.08GB / 1.44GB 6.9s
+2025-12-10T09:54:19.235Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 1.33GB / 8.61GB 8.0s
+2025-12-10T09:54:19.386Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 1.16GB / 1.44GB 7.7s
+2025-12-10T09:54:19.837Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 1.24GB / 1.44GB 8.1s
+2025-12-10T09:54:20.289Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 1.31GB / 1.44GB 8.6s
+2025-12-10T09:54:20.887Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 1.41GB / 1.44GB 9.2s
+2025-12-10T09:54:21.559Z [INFO] #6 sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 1.44GB / 1.44GB 9.6s done
+2025-12-10T09:54:21.559Z [INFO] #6 extracting sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0
+2025-12-10T09:54:22.309Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 1.79GB / 8.61GB 11.1s
+2025-12-10T09:54:24.861Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 2.24GB / 8.61GB 13.7s
+2025-12-10T09:54:27.410Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 2.68GB / 8.61GB 16.2s
+2025-12-10T09:54:29.959Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 3.12GB / 8.61GB 18.8s
+2025-12-10T09:54:34.011Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 3.56GB / 8.61GB 22.8s
+2025-12-10T09:54:34.568Z [INFO] #6 extracting sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 13.2s done
+2025-12-10T09:54:34.568Z [INFO] #6 extracting sha256:77b0ceda29ac0c8b985431cc5a073a2e45f89103d83877451694b5e13be7c794 0.0s done
+2025-12-10T09:54:34.695Z [INFO] #6 extracting sha256:6fd18a5204307c56c8849e2653f9b154d15c95c565e05d93d2b407af98b620aa 0.1s done
+2025-12-10T09:54:34.695Z [INFO] #6 extracting sha256:3b176c2fc716d64847e7a75a3572297f05a2f4d7f8d649ce1dd1c687350f9ef4 0.1s done
+2025-12-10T09:54:34.909Z [INFO] #6 extracting sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd
+2025-12-10T09:54:37.760Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 3.99GB / 8.61GB 26.6s
+2025-12-10T09:54:40.152Z [INFO] #6 extracting sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 5.5s done
+2025-12-10T09:54:40.309Z [INFO] #6 extracting sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5
+2025-12-10T09:54:40.309Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 4.43GB / 8.61GB 29.1s
+2025-12-10T09:54:44.059Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 4.87GB / 8.61GB 32.9s
+2025-12-10T09:54:46.759Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 5.31GB / 8.61GB 35.6s
+2025-12-10T09:54:49.009Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 5.74GB / 8.61GB 37.8s
+2025-12-10T09:54:51.409Z [INFO] #6 extracting sha256:80bfd16fb29edd837cee03e170060c2266f02c1d8ce4f93ce738d9694acf8bb5 11.2s done
+2025-12-10T09:54:51.409Z [INFO] #6 extracting sha256:441aff9995340c88bdcd146f92f65624a2bf184362c358d38e04fbf4f607d8c8
+2025-12-10T09:54:51.559Z [INFO] #6 extracting sha256:441aff9995340c88bdcd146f92f65624a2bf184362c358d38e04fbf4f607d8c8 0.1s done
+2025-12-10T09:54:51.559Z [INFO] #6 extracting sha256:e663b4482920d0cd39564efcee0141d0b61617a855d0cf7fd21158f0a3709b71
+2025-12-10T09:54:51.859Z [INFO] #6 extracting sha256:e663b4482920d0cd39564efcee0141d0b61617a855d0cf7fd21158f0a3709b71 0.4s done
+2025-12-10T09:54:51.859Z [INFO] #6 extracting sha256:0a57e7d8cd83f656b0e19ff23a186fd77527f45c232cc8cbf4132d7a9d61e44b
+2025-12-10T09:54:52.309Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 6.20GB / 8.61GB 41.1s
+2025-12-10T09:54:54.860Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 6.63GB / 8.61GB 43.7s
+2025-12-10T09:54:55.010Z [INFO] #6 extracting sha256:0a57e7d8cd83f656b0e19ff23a186fd77527f45c232cc8cbf4132d7a9d61e44b 3.1s done
+2025-12-10T09:54:57.410Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 7.09GB / 8.61GB 46.2s
+2025-12-10T09:54:59.810Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 7.53GB / 8.61GB 48.6s
+2025-12-10T09:55:02.361Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 7.96GB / 8.61GB 51.2s
+2025-12-10T09:55:05.960Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 8.40GB / 8.61GB 54.8s
+2025-12-10T09:55:07.985Z [INFO] #6 sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 8.61GB / 8.61GB 56.6s done
+2025-12-10T09:55:07.985Z [INFO] #6 extracting sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f
+2025-12-10T09:56:15.102Z [INFO] #6 extracting sha256:b70e6064f0d48b66a3f4406be4919195abc3eefb27cf66eea8a7a87da2c61a0f 67.3s done
+2025-12-10T09:56:15.102Z [INFO] #6 DONE 124.0s
+2025-12-10T09:56:15.214Z [INFO] #6 [ 1/16] FROM docker.io/runpod/worker-comfyui:5.5.0-base@sha256:391483d34581f3d27d6a2d9c89a7059642d1773084ec0cd7360dead654a3692d
+2025-12-10T09:56:15.214Z [INFO] #6 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0.1s done
+2025-12-10T09:56:15.214Z [INFO] #6 DONE 124.2s
+2025-12-10T09:56:15.430Z [INFO] #6 [ 1/16] FROM docker.io/runpod/worker-comfyui:5.5.0-base@sha256:391483d34581f3d27d6a2d9c89a7059642d1773084ec0cd7360dead654a3692d
+2025-12-10T09:56:15.430Z [INFO] #6 extracting sha256:26caf4eaf3a9c104c153682d9f63f77da219a2d9cff858b90f0f1f632fb4fdd0 0.1s done
+2025-12-10T09:56:15.430Z [INFO] #6 extracting sha256:f4a5f976b717e8a4cf6b7e8ec9d79ec355b3b8e6e2ac7991e1ea06615d09f250
+2025-12-10T09:56:19.720Z [INFO] #6 extracting sha256:f4a5f976b717e8a4cf6b7e8ec9d79ec355b3b8e6e2ac7991e1ea06615d09f250 4.4s done
+2025-12-10T09:56:19.720Z [INFO] #6 DONE 128.7s
+2025-12-10T09:56:19.839Z [INFO] #6 [ 1/16] FROM docker.io/runpod/worker-comfyui:5.5.0-base@sha256:391483d34581f3d27d6a2d9c89a7059642d1773084ec0cd7360dead654a3692d
+2025-12-10T09:56:19.839Z [INFO] #6 extracting sha256:55bd96143498e8d5fb5e059a868c39d78b1a797937950f84743a64bd1642803b 0.1s done
+2025-12-10T09:56:19.839Z [INFO] #6 extracting sha256:72f7f36bae4c9f40f0f67ecdfae2a846b2e67b60534c6ee2ed05708b2fe7fc56 0.1s done
+2025-12-10T09:56:19.839Z [INFO] #6 DONE 128.8s
+2025-12-10T09:56:19.955Z [INFO] #6 [ 1/16] FROM docker.io/runpod/worker-comfyui:5.5.0-base@sha256:391483d34581f3d27d6a2d9c89a7059642d1773084ec0cd7360dead654a3692d
+2025-12-10T09:56:19.956Z [INFO] #6 extracting sha256:3ba1aa0fd3f9afe20818cf056bf31d264006c84db440fecdf464960056751af9 0.1s done
+2025-12-10T09:56:19.956Z [INFO] #6 extracting sha256:7925af29e8bf64f54eca8c9b411874b8ff12b87b3e9d3a654935fd2ad7ae4f59 0.1s done
+2025-12-10T09:56:19.956Z [INFO] #6 DONE 128.9s
+2025-12-10T09:56:20.066Z [INFO] #6 [ 1/16] FROM docker.io/runpod/worker-comfyui:5.5.0-base@sha256:391483d34581f3d27d6a2d9c89a7059642d1773084ec0cd7360dead654a3692d
+2025-12-10T09:56:20.066Z [INFO] #6 extracting sha256:da67f0eb18cf29b985fc2aa97248e2fc482b9e6cf0a0cd69f0568cd45b5d2514 0.1s done
+2025-12-10T09:56:20.066Z [INFO] #6 extracting sha256:9d2e102127f9ba2c2ac52852c0c132001afb123518bf663e146b71b70bb6d7a3 0.1s done
+2025-12-10T09:56:20.066Z [INFO] #6 DONE 129.0s
+2025-12-10T09:56:20.217Z [INFO] #7 [ 2/16] RUN comfy node install --exit-on-fail comfyui-gguf@1.1.9
+2025-12-10T09:56:21.007Z [INFO] #7 0.941 Execute from: /comfyui
+2025-12-10T09:56:21.157Z [INFO] #7 0.941 Command: ['/opt/venv/bin/python',
+2025-12-10T09:56:21.157Z [INFO] #7 0.941 '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py', 'install', '--exit-on-fail',
+2025-12-10T09:56:21.157Z [INFO] #7 0.941 'comfyui-gguf@1.1.9']
+2025-12-10T09:56:23.067Z [INFO] #7 3.001 FETCH DATA from:
+2025-12-10T09:56:23.067Z [INFO] #7 3.001 /comfyui/user/default/ComfyUI-Manager/cache/1514988643_custom-node-list.json
+2025-12-10T09:56:23.067Z [INFO] #7 3.001 [DONE]
+2025-12-10T09:56:23.067Z [INFO] #7 3.001 install_node exit on fail:True...
+2025-12-10T09:56:23.067Z [INFO] #7 3.001
+2025-12-10T09:56:23.067Z [INFO] #7 3.001 Available version of 'comfyui-gguf'
+2025-12-10T09:56:23.067Z [INFO] #7 3.001 [2025-11-29] 1.1.9 --
+2025-12-10T09:56:23.067Z [INFO] #7 3.001 [2025-11-27] 1.1.8 --
+2025-12-10T09:56:23.067Z [INFO] #7 3.001 [2025-11-26] 1.1.7 --
+2025-12-10T09:56:23.067Z [INFO] #7 3.001 [2025-11-07] 1.1.6 --
+2025-12-10T09:56:23.067Z [INFO] #7 3.001 [2025-11-03] 1.1.5 --
+2025-12-10T09:56:23.067Z [INFO] #7 3.001 [2025-08-19] 1.1.4 --
+2025-12-10T09:56:23.067Z [INFO] #7 3.001 [2025-08-05] 1.1.3 --
+2025-12-10T09:56:23.067Z [INFO] #7 3.001 [2025-08-05] 1.1.2 --
+2025-12-10T09:56:23.067Z [INFO] #7 3.001 [2025-06-14] 1.1.1 --
+2025-12-10T09:56:23.067Z [INFO] #7 3.001 [2025-05-09] 1.1.0 --
+2025-12-10T09:56:23.223Z [INFO] #7 DONE 3.2s
+2025-12-10T09:56:23.375Z [INFO] #8 [ 3/16] RUN comfy node install --exit-on-fail comfyui-kjnodes@1.2.0
+2025-12-10T09:56:24.117Z [INFO] #8 0.893 Execute from: /comfyui
+2025-12-10T09:56:24.268Z [INFO] #8 0.893 Command: ['/opt/venv/bin/python',
+2025-12-10T09:56:24.268Z [INFO] #8 0.893 '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py', 'install', '--exit-on-fail',
+2025-12-10T09:56:24.268Z [INFO] #8 0.893 'comfyui-kjnodes@1.2.0']
+2025-12-10T09:56:33.070Z [INFO] #8 9.845 FETCH DATA from:
+2025-12-10T09:56:33.070Z [INFO] #8 9.845 /comfyui/user/default/ComfyUI-Manager/cache/1514988643_custom-node-list.json
+2025-12-10T09:56:33.070Z [INFO] #8 9.845 [DONE]
+2025-12-10T09:56:33.070Z [INFO] #8 9.845 install_node exit on fail:True...
+2025-12-10T09:56:33.070Z [INFO] #8 9.845 Install: pip packages
+2025-12-10T09:56:33.070Z [INFO] #8 9.845
+2025-12-10T09:56:33.070Z [INFO] #8 9.845 ## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python', '-m', 'uv', 'pip',
+2025-12-10T09:56:33.070Z [INFO] #8 9.845 'install', 'pillow>=10.3.0']
+2025-12-10T09:56:33.070Z [INFO] #8 9.845 'install', 'scipy']
+2025-12-10T09:56:33.070Z [INFO] #8 9.845 'install', 'color-matcher']
+2025-12-10T09:56:33.070Z [INFO] #8 9.845 'install', 'matplotlib']
+2025-12-10T09:56:33.070Z [INFO] #8 9.845 'install', 'huggingface_hub']
+2025-12-10T09:56:33.070Z [INFO] #8 9.845 'install', 'mss']
+2025-12-10T09:56:33.070Z [INFO] #8 9.845 'install', 'opencv-python-headless']
+2025-12-10T09:56:33.070Z [INFO] #8 9.845 1/1 [INSTALLED] comfyui-kjnodes                                   [1.2.0]
+2025-12-10T09:56:33.378Z [INFO] #8 DONE 10.2s
+2025-12-10T09:56:33.529Z [INFO] #9 [ 4/16] RUN comfy node install --exit-on-fail comfy-mtb@0.5.4
+2025-12-10T09:56:34.304Z [INFO] #9 0.926 Execute from: /comfyui
+2025-12-10T09:56:34.455Z [INFO] #9 0.927 Command: ['/opt/venv/bin/python',
+2025-12-10T09:56:34.455Z [INFO] #9 0.927 '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py', 'install', '--exit-on-fail',
+2025-12-10T09:56:34.455Z [INFO] #9 0.927 'comfy-mtb@0.5.4']
+2025-12-10T09:56:46.497Z [INFO] #9 13.12 FETCH DATA from:
+2025-12-10T09:56:46.497Z [INFO] #9 13.12 /comfyui/user/default/ComfyUI-Manager/cache/1514988643_custom-node-list.json
+2025-12-10T09:56:46.497Z [INFO] #9 13.12 [DONE]
+2025-12-10T09:56:46.497Z [INFO] #9 13.12 install_node exit on fail:True...
+2025-12-10T09:56:46.497Z [INFO] #9 13.12 Install: pip packages
+2025-12-10T09:56:46.497Z [INFO] #9 13.12
+2025-12-10T09:56:46.497Z [INFO] #9 13.12 ## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python', '-m', 'uv', 'pip',
+2025-12-10T09:56:46.497Z [INFO] #9 13.12 'install', 'qrcode']
+2025-12-10T09:56:46.497Z [INFO] #9 13.12 'install', 'onnxruntime-gpu']
+2025-12-10T09:56:46.497Z [INFO] #9 13.12 'install', 'requirements-parser']
+2025-12-10T09:56:46.498Z [INFO] #9 13.12 'install', 'rembg']
+2025-12-10T09:56:46.498Z [INFO] #9 13.12
+2025-12-10T09:56:46.498Z [INFO] #9 13.12 ## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python', '-m', 'uv', 'pip',
+2025-12-10T09:56:46.498Z [INFO] #9 13.12 'install', 'imageio_ffmpeg']
+2025-12-10T09:56:46.498Z [INFO] #9 13.12 'install', 'rich']
+2025-12-10T09:56:46.498Z [INFO] #9 13.12 'install', 'rich_argparse']
+2025-12-10T09:56:46.498Z [INFO] #9 13.12 'install', 'matplotlib']
+2025-12-10T09:56:46.498Z [INFO] #9 13.12 'install', 'pillow']
+2025-12-10T09:56:46.498Z [INFO] #9 13.12 'install', 'cachetools']
+2025-12-10T09:56:46.498Z [INFO] #9 13.12 [ComfyUI-Manager] skip black listed pip installation: 'transformers'
+2025-12-10T09:56:46.498Z [INFO] #9 13.12 Install: install script
+2025-12-10T09:56:46.498Z [INFO] #9 13.12 ## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python', 'install.py']
+2025-12-10T09:56:46.498Z [INFO] #9 13.12 [33m[1m [0m[0m [33m[3mmtb doesn't need an install script anymore.[0m[0m
+2025-12-10T09:56:46.498Z [INFO] #9 13.12 1/1 [INSTALLED] comfy-mtb                                         [0.5.4]
+2025-12-10T09:56:46.727Z [INFO] #9 DONE 13.3s
+2025-12-10T09:56:46.879Z [INFO] #10 [ 5/16] RUN comfy node install --exit-on-fail comfyui-videohelpersuite@1.7.8
+2025-12-10T09:56:47.599Z [INFO] #10 0.871 Execute from: /comfyui
+2025-12-10T09:56:47.750Z [INFO] #10 0.872 Command: ['/opt/venv/bin/python',
+2025-12-10T09:56:47.750Z [INFO] #10 0.872 '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py', 'install', '--exit-on-fail',
+2025-12-10T09:56:47.750Z [INFO] #10 0.872 'comfyui-videohelpersuite@1.7.8']
+2025-12-10T09:56:54.217Z [INFO] #10 7.489 FETCH DATA from:
+2025-12-10T09:56:54.217Z [INFO] #10 7.489 /comfyui/user/default/ComfyUI-Manager/cache/1514988643_custom-node-list.json
+2025-12-10T09:56:54.217Z [INFO] #10 7.489 [DONE]
+2025-12-10T09:56:54.217Z [INFO] #10 7.489 install_node exit on fail:True...
+2025-12-10T09:56:54.217Z [INFO] #10 7.489 Install: pip packages
+2025-12-10T09:56:54.217Z [INFO] #10 7.489
+2025-12-10T09:56:54.217Z [INFO] #10 7.489 ## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python', '-m', 'uv', 'pip',
+2025-12-10T09:56:54.217Z [INFO] #10 7.489 'install', 'opencv-python']
+2025-12-10T09:56:54.217Z [INFO] #10 7.489 'install', 'imageio-ffmpeg']
+2025-12-10T09:56:54.217Z [INFO] #10 7.489 1/1 [INSTALLED] comfyui-videohelpersuite                          [1.7.8]
+2025-12-10T09:56:54.425Z [INFO] #10 DONE 7.7s
+2025-12-10T09:56:54.577Z [INFO] #11 [ 6/16] RUN comfy node install --exit-on-fail comfyui-easy-use@1.3.4
+2025-12-10T09:56:55.249Z [INFO] #11 0.823 Execute from: /comfyui
+2025-12-10T09:56:55.400Z [INFO] #11 0.824 Command: ['/opt/venv/bin/python',
+2025-12-10T09:56:55.400Z [INFO] #11 0.824 '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py', 'install', '--exit-on-fail',
+2025-12-10T09:56:55.400Z [INFO] #11 0.824 'comfyui-easy-use@1.3.4']
+2025-12-10T09:57:04.387Z [INFO] #11 9.961 FETCH DATA from:
+2025-12-10T09:57:04.387Z [INFO] #11 9.961 /comfyui/user/default/ComfyUI-Manager/cache/1514988643_custom-node-list.json
+2025-12-10T09:57:04.387Z [INFO] #11 9.961 [DONE]
+2025-12-10T09:57:04.387Z [INFO] #11 9.961 install_node exit on fail:True...
+2025-12-10T09:57:04.387Z [INFO] #11 9.961 Install: pip packages
+2025-12-10T09:57:04.387Z [INFO] #11 9.961
+2025-12-10T09:57:04.387Z [INFO] #11 9.961 ## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python', '-m', 'uv', 'pip',
+2025-12-10T09:57:04.387Z [INFO] #11 9.961 'install', 'diffusers']
+2025-12-10T09:57:04.388Z [INFO] #11 9.961
+2025-12-10T09:57:04.388Z [INFO] #11 9.961 ## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python', '-m', 'uv', 'pip',
+2025-12-10T09:57:04.388Z [INFO] #11 9.961 'install', 'accelerate']
+2025-12-10T09:57:04.388Z [INFO] #11 9.961 'install', 'clip_interrogator>=0.6.0']
+2025-12-10T09:57:04.388Z [INFO] #11 9.961 'install', 'lark']
+2025-12-10T09:57:04.388Z [INFO] #11 9.961 'install', 'onnxruntime']
+2025-12-10T09:57:04.388Z [INFO] #11 9.961 'install', 'opencv-python-headless']
+2025-12-10T09:57:04.388Z [INFO] #11 9.961 'install', 'sentencepiece']
+2025-12-10T09:57:04.388Z [INFO] #11 9.961 'install', 'spandrel']
+2025-12-10T09:57:04.388Z [INFO] #11 9.961 'install', 'matplotlib']
+2025-12-10T09:57:04.388Z [INFO] #11 9.961 'install', 'peft']
+2025-12-10T09:57:04.388Z [INFO] #11 9.961 1/1 [INSTALLED] comfyui-easy-use                                  [1.3.4]
+2025-12-10T09:57:04.623Z [INFO] #11 DONE 10.2s
+2025-12-10T09:57:04.774Z [INFO] #12 [ 7/16] RUN comfy node install --exit-on-fail comfyui-frame-interpolation@1.0.7
+2025-12-10T09:57:05.529Z [INFO] #12 0.905 Execute from: /comfyui
+2025-12-10T09:57:05.681Z [INFO] #12 0.905 Command: ['/opt/venv/bin/python',
+2025-12-10T09:57:05.681Z [INFO] #12 0.905 '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py', 'install', '--exit-on-fail',
+2025-12-10T09:57:05.681Z [INFO] #12 0.905 'comfyui-frame-interpolation@1.0.7']
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 FETCH DATA from:
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 /comfyui/user/default/ComfyUI-Manager/cache/1514988643_custom-node-list.json
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 [DONE]
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 install_node exit on fail:True...
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 Install: install script
+2025-12-10T09:57:29.599Z [INFO] #12 24.97
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 ## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python', 'install.py']
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 Installing torch...
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 Requirement already satisfied: torch in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 (2.8.0)
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 Requirement already satisfied: filelock in
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch) (3.19.1)
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 Requirement already satisfied: typing-extensions>=4.10.0 in
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch) (4.15.0)
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 Requirement already satisfied: setuptools in
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch) (80.9.0)
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 Requirement already satisfied: sympy>=1.13.3 in
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch) (1.14.0)
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 Requirement already satisfied: networkx in
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch) (3.5)
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 Requirement already satisfied: jinja2 in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 (from torch) (3.1.6)
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 Requirement already satisfied: fsspec in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 (from torch) (2025.9.0)
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.8.93 in
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch) (12.8.93)
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cuda-runtime-cu12==12.8.90 in
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch) (12.8.90)
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cuda-cupti-cu12==12.8.90 in
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cudnn-cu12==9.10.2.21 in
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch) (9.10.2.21)
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cublas-cu12==12.8.4.1 in
+2025-12-10T09:57:29.599Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch) (12.8.4.1)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cufft-cu12==11.3.3.83 in
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch) (11.3.3.83)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: nvidia-curand-cu12==10.3.9.90 in
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch) (10.3.9.90)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cusolver-cu12==11.7.3.90 in
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch) (11.7.3.90)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cusparse-cu12==12.5.8.93 in
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch) (12.5.8.93)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cusparselt-cu12==0.7.1 in
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch) (0.7.1)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: nvidia-nccl-cu12==2.27.3 in
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch) (2.27.3)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: nvidia-nvtx-cu12==12.8.90 in
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch) (12.8.90)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: nvidia-nvjitlink-cu12==12.8.93 in
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch) (12.8.93)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cufile-cu12==1.13.1.3 in
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch) (1.13.1.3)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: triton==3.4.0 in
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch) (3.4.0)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: mpmath<1.4,>=1.1.0 in
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from sympy>=1.13.3->torch) (1.3.0)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: MarkupSafe>=2.0 in
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from jinja2->torch) (3.0.3)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Installing numpy...
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: numpy in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 (2.2.6)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Installing einops...
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: einops in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 (0.8.1)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Installing opencv-contrib-python...
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Collecting opencv-contrib-python
+2025-12-10T09:57:29.600Z [INFO] #12 24.97   Downloading
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 opencv_contrib_python-4.12.0.88-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x8
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 6_64.whl.metadata (19 kB)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: numpy<2.3.0,>=2 in
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from opencv-contrib-python) (2.2.6)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Downloading
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 6_64.whl (73.2 MB)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.2/73.2 MB 146.0 MB/s  0:00:00
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Installing collected packages: opencv-contrib-python
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Successfully installed opencv-contrib-python-4.12.0.88
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Installing kornia...
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: kornia in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: kornia_rs>=0.1.9 in
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from kornia) (0.1.9)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: packaging in
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from kornia) (25.0)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: torch>=1.9.1 in
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from kornia) (2.8.0)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: filelock in
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (3.19.1)
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 Requirement already satisfied: typing-extensions>=4.10.0 in
+2025-12-10T09:57:29.600Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (4.15.0)
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: setuptools in
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (80.9.0)
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: sympy>=1.13.3 in
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (1.14.0)
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: networkx in
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (3.5)
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: jinja2 in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 (from torch>=1.9.1->kornia) (3.1.6)
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: fsspec in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 (from torch>=1.9.1->kornia) (2025.9.0)
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.8.93 in
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (12.8.93)
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cuda-runtime-cu12==12.8.90 in
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (12.8.90)
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cuda-cupti-cu12==12.8.90 in
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cudnn-cu12==9.10.2.21 in
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (9.10.2.21)
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cublas-cu12==12.8.4.1 in
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (12.8.4.1)
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cufft-cu12==11.3.3.83 in
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (11.3.3.83)
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: nvidia-curand-cu12==10.3.9.90 in
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (10.3.9.90)
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cusolver-cu12==11.7.3.90 in
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (11.7.3.90)
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cusparse-cu12==12.5.8.93 in
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (12.5.8.93)
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cusparselt-cu12==0.7.1 in
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (0.7.1)
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: nvidia-nccl-cu12==2.27.3 in
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (2.27.3)
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: nvidia-nvtx-cu12==12.8.90 in
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: nvidia-nvjitlink-cu12==12.8.93 in
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cufile-cu12==1.13.1.3 in
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (1.13.1.3)
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: triton==3.4.0 in
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch>=1.9.1->kornia) (3.4.0)
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: mpmath<1.4,>=1.1.0 in
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 sympy>=1.13.3->torch>=1.9.1->kornia) (1.3.0)
+2025-12-10T09:57:29.601Z [INFO] #12 24.97 Requirement already satisfied: MarkupSafe>=2.0 in
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from jinja2->torch>=1.9.1->kornia)
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 (3.0.3)
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Installing scipy...
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Requirement already satisfied: scipy in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 (1.16.2)
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Requirement already satisfied: numpy<2.6,>=1.25.2 in
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from scipy) (2.2.6)
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Installing Pillow...
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Requirement already satisfied: Pillow in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 (11.3.0)
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Installing torchvision...
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Requirement already satisfied: torchvision in
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (0.23.0)
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Requirement already satisfied: numpy in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 (from torchvision) (2.2.6)
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Requirement already satisfied: torch==2.8.0 in
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torchvision) (2.8.0)
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torchvision) (11.3.0)
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Requirement already satisfied: filelock in
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch==2.8.0->torchvision) (3.19.1)
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Requirement already satisfied: typing-extensions>=4.10.0 in
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch==2.8.0->torchvision) (4.15.0)
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Requirement already satisfied: setuptools in
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch==2.8.0->torchvision) (80.9.0)
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Requirement already satisfied: sympy>=1.13.3 in
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch==2.8.0->torchvision) (1.14.0)
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Requirement already satisfied: networkx in
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch==2.8.0->torchvision) (3.5)
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Requirement already satisfied: jinja2 in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 (from torch==2.8.0->torchvision) (3.1.6)
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Requirement already satisfied: fsspec in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 (from torch==2.8.0->torchvision) (2025.9.0)
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.8.93 in
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch==2.8.0->torchvision)
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 (12.8.93)
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cuda-runtime-cu12==12.8.90 in
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 (12.8.90)
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cuda-cupti-cu12==12.8.90 in
+2025-12-10T09:57:29.602Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cudnn-cu12==9.10.2.21 in
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 (9.10.2.21)
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cublas-cu12==12.8.4.1 in
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch==2.8.0->torchvision)
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 (12.8.4.1)
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cufft-cu12==11.3.3.83 in
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 (11.3.3.83)
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 Requirement already satisfied: nvidia-curand-cu12==10.3.9.90 in
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 (10.3.9.90)
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cusolver-cu12==11.7.3.90 in
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 (11.7.3.90)
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cusparse-cu12==12.5.8.93 in
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 (12.5.8.93)
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cusparselt-cu12==0.7.1 in
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch==2.8.0->torchvision) (0.7.1)
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 Requirement already satisfied: nvidia-nccl-cu12==2.27.3 in
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch==2.8.0->torchvision) (2.27.3)
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 Requirement already satisfied: nvidia-nvtx-cu12==12.8.90 in
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 (12.8.90)
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 Requirement already satisfied: nvidia-nvjitlink-cu12==12.8.93 in
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 (12.8.93)
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 Requirement already satisfied: nvidia-cufile-cu12==1.13.1.3 in
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 (1.13.1.3)
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 Requirement already satisfied: triton==3.4.0 in
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from torch==2.8.0->torchvision) (3.4.0)
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 Requirement already satisfied: mpmath<1.4,>=1.1.0 in
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 sympy>=1.13.3->torch==2.8.0->torchvision) (1.3.0)
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 Requirement already satisfied: MarkupSafe>=2.0 in
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 /opt/venv/lib/python3.12/site-packages (from jinja2->torch==2.8.0->torchvision)
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 (3.0.3)
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 Installing tqdm...
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 Requirement already satisfied: tqdm in /opt/venv/lib/python3.12/site-packages
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 (4.67.1)
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 Checking cupy...
+2025-12-10T09:57:29.603Z [INFO] #12 24.97 Uninstall cupy if existed...
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 Installing cupy...
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 Collecting cupy-wheel
+2025-12-10T09:57:29.604Z [INFO] #12 24.97   Downloading cupy-wheel-12.3.0.tar.gz (2.9 kB)
+2025-12-10T09:57:29.604Z [INFO] #12 24.97   Preparing metadata (setup.py): started
+2025-12-10T09:57:29.604Z [INFO] #12 24.97   Preparing metadata (setup.py): finished with status 'done'
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 Collecting cupy-cuda12x==12.3.0 (from cupy-wheel)
+2025-12-10T09:57:29.604Z [INFO] #12 24.97   Downloading cupy_cuda12x-12.3.0-cp312-cp312-manylinux2014_x86_64.whl.metadata
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 (2.7 kB)
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 Collecting numpy<1.29,>=1.20 (from cupy-cuda12x==12.3.0->cupy-wheel)
+2025-12-10T09:57:29.604Z [INFO] #12 24.97   Downloading
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 (61 kB)
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 Collecting fastrlock>=0.5 (from cupy-cuda12x==12.3.0->cupy-wheel)
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 fastrlock-0.8.3-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_2
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 8_x86_64.whl.metadata (7.7 kB)
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 Downloading cupy_cuda12x-12.3.0-cp312-cp312-manylinux2014_x86_64.whl (82.1 MB)
+2025-12-10T09:57:29.604Z [INFO] #12 24.97    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.1/82.1 MB 159.2 MB/s  0:00:00
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 Downloading
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.0
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 MB)
+2025-12-10T09:57:29.604Z [INFO] #12 24.97    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.0/18.0 MB 188.0 MB/s  0:00:00
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 8_x86_64.whl (53 kB)
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 Building wheels for collected packages: cupy-wheel
+2025-12-10T09:57:29.604Z [INFO] #12 24.97   Building wheel for cupy-wheel (setup.py): started
+2025-12-10T09:57:29.604Z [INFO] #12 24.97   Building wheel for cupy-wheel (setup.py): finished with status 'done'
+2025-12-10T09:57:29.604Z [INFO] #12 24.97   Created wheel for cupy-wheel: filename=cupy_wheel-12.3.0-py3-none-any.whl
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 size=1007
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 sha256=f65b5bc2e0c7a0b49a8d741153d2c7a99f8fa2fda5986484fbbf1b0dbf15b4b6
+2025-12-10T09:57:29.604Z [INFO] #12 24.97   Stored in directory:
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 /root/.cache/pip/wheels/71/39/6c/8039cb60958346ad6f2870ef3ae75cada25f75c6049f908
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 d42
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 Successfully built cupy-wheel
+2025-12-10T09:57:29.604Z [INFO] #12 24.97 Installing collected packages: fastrlock, numpy, cupy-cuda12x, cupy-wheel
+2025-12-10T09:57:29.604Z [INFO] #12 24.97   Attempting uninstall: numpy
+2025-12-10T09:57:29.605Z [INFO] #12 24.97     Found existing installation: numpy 2.2.6
+2025-12-10T09:57:29.605Z [INFO] #12 24.97     Uninstalling numpy-2.2.6:
+2025-12-10T09:57:29.605Z [INFO] #12 24.97       Successfully uninstalled numpy-2.2.6
+2025-12-10T09:57:29.605Z [INFO] #12 24.97
+2025-12-10T09:57:29.605Z [INFO] #12 24.97 Successfully installed cupy-cuda12x-12.3.0 cupy-wheel-12.3.0 fastrlock-0.8.3
+2025-12-10T09:57:29.605Z [INFO] #12 24.97 numpy-1.26.4
+2025-12-10T09:57:29.605Z [INFO] #12 24.97 1/1 [INSTALLED] comfyui-frame-interpolation                       [1.0.7]
+2025-12-10T09:57:30.022Z [INFO] #12 DONE 25.4s
+2025-12-10T09:57:30.174Z [INFO] #13 [ 8/16] RUN comfy node install --exit-on-fail rgthree-comfy@1.0.2512092137
+2025-12-10T09:57:30.891Z [INFO] #13 0.868 Execute from: /comfyui
+2025-12-10T09:57:31.042Z [INFO] #13 0.868 Command: ['/opt/venv/bin/python',
+2025-12-10T09:57:31.042Z [INFO] #13 0.868 '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py', 'install', '--exit-on-fail',
+2025-12-10T09:57:31.042Z [INFO] #13 0.868 'rgthree-comfy@1.0.2512092137']
+2025-12-10T09:57:36.899Z [INFO] #13 6.875 FETCH DATA from:
+2025-12-10T09:57:36.899Z [INFO] #13 6.875 /comfyui/user/default/ComfyUI-Manager/cache/1514988643_custom-node-list.json
+2025-12-10T09:57:36.899Z [INFO] #13 6.875 [DONE]
+2025-12-10T09:57:36.899Z [INFO] #13 6.875 install_node exit on fail:True...
+2025-12-10T09:57:36.899Z [INFO] #13 6.875 Install: pip packages
+2025-12-10T09:57:36.899Z [INFO] #13 6.875 1/1 [INSTALLED] rgthree-comfy
+2025-12-10T09:57:36.899Z [INFO] #13 6.875 [1.0.2512092137]
+2025-12-10T09:57:36.899Z [INFO] #13 6.875
+2025-12-10T09:57:37.353Z [INFO] #13 DONE 7.3s
+2025-12-10T09:57:37.504Z [INFO] #14 [ 9/16] RUN comfy model download --url https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors --relative-path models/vae --filename wan_2.1_vae.safetensors
+2025-12-10T09:57:38.254Z [INFO] #14 0.900 Start downloading URL:
+2025-12-10T09:57:38.254Z [INFO] #14 0.900 https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_f
+2025-12-10T09:57:38.254Z [INFO] #14 0.900 iles/vae/wan_2.1_vae.safetensors into
+2025-12-10T09:57:38.254Z [INFO] #14 0.900 /comfyui/models/vae/wan_2.1_vae.safetensors
+2025-12-10T09:57:39.678Z [INFO] #14 2.174 Downloading 242 MB ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+2025-12-10T09:57:39.730Z [INFO] #14 DONE 2.4s
+2025-12-10T09:57:39.881Z [INFO] #15 [10/16] RUN comfy model download --url https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors --relative-path models/clip --filename umt5_xxl_fp8_e4m3fn_scaled.safetensors
+2025-12-10T09:57:40.568Z [INFO] #15 0.837 Start downloading URL:
+2025-12-10T09:57:40.568Z [INFO] #15 0.837 https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_f
+2025-12-10T09:57:40.568Z [INFO] #15 0.837 iles/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors into
+2025-12-10T09:57:40.568Z [INFO] #15 0.837 /comfyui/models/clip/umt5_xxl_fp8_e4m3fn_scaled.safetensors
+2025-12-10T09:58:07.638Z [INFO] #15 27.76 Downloading 6423 MB ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+2025-12-10T09:58:08.037Z [INFO] #15 DONE 28.3s
+2025-12-10T09:58:08.188Z [INFO] #16 [11/16] RUN comfy model download --url https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_Q8_0.gguf --relative-path models/diffusion_models --filename wan2.2_i2v_low_noise_14B_Q8_0.gguf
+2025-12-10T09:58:08.830Z [INFO] #16 0.793 Start downloading URL:
+2025-12-10T09:58:08.830Z [INFO] #16 0.793 https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repackaged/resolve/main/split_f
+2025-12-10T09:58:08.830Z [INFO] #16 0.793 iles/diffusion_models/wan2.2_i2v_low_noise_14B_Q8_0.gguf into
+2025-12-10T09:58:08.830Z [INFO] #16 0.793 /comfyui/models/diffusion_models/wan2.2_i2v_low_noise_14B_Q8_0.gguf
+2025-12-10T09:58:09.861Z [INFO] #16 1.823 ╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+2025-12-10T09:58:09.861Z [INFO] #16 1.823 │ /opt/venv/lib/python3.12/site-packages/comfy_cli/tracking.py:77 in wrapper   │
+2025-12-10T09:58:09.861Z [INFO] #16 1.823 │                                                                              │
+2025-12-10T09:58:09.861Z [INFO] #16 1.823 │    74 │   │   │   logging.debug(f"Tracking command: {command_name} with argu │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │    75 │   │   │   track_event(command_name, properties=filtered_kwargs)      │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │    76 │   │   │                                                              │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ ❱  77 │   │   │   return func(*args, **kwargs)                               │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │    78 │   │                                                                  │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │    79 │   │   return wrapper                                                 │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │    80                                                                        │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │                                                                              │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ ╭───────────────────────────────── locals ─────────────────────────────────╮ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │            args = ()                                                     │ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │    command_name = 'model:download'                                       │ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │ filtered_kwargs = {                                                      │ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │                   │   '_ctx': <click.core.Context object at              │ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │                   0x79e29f5020f0>,                                       │ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │                   │   'url':                                             │ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │                   'https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_rep… │ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │                   │   'relative_path': 'models/diffusion_models',        │ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │                   │   'filename': 'wan2.2_i2v_low_noise_14B_Q8_0.gguf',  │ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │                   │   'set_civitai_api_token': None,                     │ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │                   │   'set_hf_api_token': None,                          │ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │                   │   'cli_version': '1.5.2',                            │ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │                   │   'tracing_id':                                      │ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │                   'bca5d4ad-59f5-46f2-9551-316df498d883'                 │ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │                   }                                                      │ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │          kwargs = {                                                      │ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │                   │   'set_hf_api_token': None                           │ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │     sub_command = 'model'                                                │ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ ╰──────────────────────────────────────────────────────────────────────────╯ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ /opt/venv/lib/python3.12/site-packages/comfy_cli/command/models/models.py:33 │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ 0 in download                                                                │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │   327 │   │   │   print(f"Model downloaded successfully to: {output_path}")  │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │   328 │   else:                                                              │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │   329 │   │   print(f"Start downloading URL: {url} into {local_filepath}")   │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ ❱ 330 │   │   download_file(url, local_filepath, headers)                    │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │   331                                                                        │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │   332                                                                        │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │   333 @app.command()                                                         │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │                  _ctx = <click.core.Context object at 0x79e29f5020f0>    │ │
+2025-12-10T09:58:09.862Z [INFO] #16 1.823 │ │     civitai_api_token = None                                             │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │              filename = 'wan2.2_i2v_low_noise_14B_Q8_0.gguf'             │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │               headers = None                                             │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │          hf_api_token = None                                             │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │        hf_branch_name = 'main'                                           │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │           hf_filename = 'wan2.2_i2v_low_noise_14B_Q8_0.gguf'             │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │        hf_folder_name = 'split_files/diffusion_models'                   │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │    is_civitai_api_url = False                                            │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │  is_civitai_model_url = False                                            │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │    is_huggingface_url = True                                             │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │        local_filename = 'wan2.2_i2v_low_noise_14B_Q8_0.gguf'             │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │        local_filepath = PosixPath('/comfyui/models/diffusion_models/wan… │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │              model_id = 'diffusion_models/wan2.2_i2v_low_noise_14B_Q8_0… │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │         relative_path = 'models/diffusion_models'                        │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │               repo_id = 'Comfy-Org/Wan_2.2_ComfyUI_repackaged'           │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │ set_civitai_api_token = None                                             │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │      set_hf_api_token = None                                             │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │                   url = 'https://huggingface.co/Comfy-Org/Wan_2.2_Comfy… │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │            version_id = None                                             │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ ╰──────────────────────────────────────────────────────────────────────────╯ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │                                                                              │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ /opt/venv/lib/python3.12/site-packages/comfy_cli/file_utils.py:86 in         │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ download_file                                                                │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │    83 │   │   │   │   │   local_filepath.unlink()                            │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │    84 │   │   else:                                                          │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │    85 │   │   │   status_reason = guess_status_code_reason(response.status_c │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ ❱  86 │   │   │   raise DownloadException(f"Failed to download file.\n{statu │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │    87                                                                        │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │    88                                                                        │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │    89 def zip_files(zip_filename, includes=None):                            │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ ╭───────────────────────────────── locals ─────────────────────────────────╮ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │        headers = None                                                    │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │ local_filepath = PosixPath('/comfyui/models/diffusion_models/wan2.2_i2v… │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │       response = <Response [404 Not Found]>                              │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │  status_reason = 'File not found on server (404)'                        │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 │ │            url = 'https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repa… │ │
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 ╰──────────────────────────────────────────────────────────────────────────────╯
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 DownloadException: Failed to download file.
+2025-12-10T09:58:09.863Z [INFO] #16 1.823 File not found on server (404)
+2025-12-10T09:58:10.014Z [INFO] #16 ERROR: process "/bin/sh -c comfy model download --url https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_Q8_0.gguf --relative-path models/diffusion_models --filename wan2.2_i2v_low_noise_14B_Q8_0.gguf" did not complete successfully: exit code: 1
+2025-12-10T09:58:10.026Z [INFO] ------
+2025-12-10T09:58:10.026Z [INFO]  > [11/16] RUN comfy model download --url https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_Q8_0.gguf --relative-path models/diffusion_models --filename wan2.2_i2v_low_noise_14B_Q8_0.gguf:
+2025-12-10T09:58:10.026Z [INFO] 1.823 │ ╭───────────────────────────────── locals ─────────────────────────────────╮ │
+2025-12-10T09:58:10.026Z [INFO] 1.823 │ │        headers = None                                                    │ │
+2025-12-10T09:58:10.026Z [INFO] 1.823 │ │ local_filepath = PosixPath('/comfyui/models/diffusion_models/wan2.2_i2v… │ │
+2025-12-10T09:58:10.026Z [INFO] 1.823 │ │       response = <Response [404 Not Found]>                              │ │
+2025-12-10T09:58:10.026Z [INFO] 1.823 │ │  status_reason = 'File not found on server (404)'                        │ │
+2025-12-10T09:58:10.026Z [INFO] 1.823 │ │            url = 'https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repa… │ │
+2025-12-10T09:58:10.026Z [INFO] 1.823 │ ╰──────────────────────────────────────────────────────────────────────────╯ │
+2025-12-10T09:58:10.026Z [INFO] 1.823 ╰──────────────────────────────────────────────────────────────────────────────╯
+2025-12-10T09:58:10.026Z [INFO] 1.823 DownloadException: Failed to download file.
+2025-12-10T09:58:10.026Z [INFO] 1.823 File not found on server (404)
+2025-12-10T09:58:10.026Z [INFO] WARNING: current commit information was not captured by the build: git was not found in the system: exec: "git": executable file not found in $PATH
+2025-12-10T09:58:10.027Z [INFO] Dockerfile:17
+2025-12-10T09:58:10.027Z [INFO] --------------------
+2025-12-10T09:58:10.027Z [INFO]   15 |     RUN comfy model download --url https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors --relative-path models/clip --filename umt5_xxl_fp8_e4m3fn_scaled.safetensors
+2025-12-10T09:58:10.027Z [INFO]   16 |     # Wan 2.2 I2V models (GGUF format)
+2025-12-10T09:58:10.027Z [INFO]   17 | >>> RUN comfy model download --url https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_Q8_0.gguf --relative-path models/diffusion_models --filename wan2.2_i2v_low_noise_14B_Q8_0.gguf
+2025-12-10T09:58:10.027Z [INFO]   18 |     RUN comfy model download --url https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_Q8_0.gguf --relative-path models/diffusion_models --filename wan2.2_i2v_high_noise_14B_Q8_0.gguf
+2025-12-10T09:58:10.027Z [INFO]   19 |
+2025-12-10T09:58:10.027Z [ERROR] ERROR: failed to build: failed to solve: process "/bin/sh -c comfy model download --url https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_Q8_0.gguf --relative-path models/diffusion_models --filename wan2.2_i2v_low_noise_14B_Q8_0.gguf" did not complete successfully: exit code: 1
+2025-12-10T09:58:10.045Z [ERROR] Build finished with wrong exit code: Please view the logs to find out what went wrong.
+2025-12-10T09:58:10.075Z [ERROR] None
+None
