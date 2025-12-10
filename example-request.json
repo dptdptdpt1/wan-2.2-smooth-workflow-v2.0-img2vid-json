@@ -1,0 +1,515 @@
+{
+  "input": {
+    "workflow": {
+      "7": {
+        "inputs": {
+          "text": "低分辨率、错误、最差质量、低质量、残缺、多余的手指、比例不良，色调艳丽，过曝，静态，细节模糊不清，字幕，",
+          "clip": [
+            "38",
+            0
+          ]
+        },
+        "class_type": "CLIPTextEncode",
+        "_meta": {
+          "title": "CLIPTextEncode"
+        }
+      },
+      "8": {
+        "inputs": {
+          "samples": [
+            "73",
+            0
+          ],
+          "vae": [
+            "39",
+            0
+          ]
+        },
+        "class_type": "VAEDecode",
+        "_meta": {
+          "title": "VAEDecode"
+        }
+      },
+      "37": {
+        "inputs": {
+          "filename": "WanVideo/smoothMixWan22I2VT2V_i2vHigh.safetensors"
+        },
+        "class_type": "UNETLoader",
+        "_meta": {
+          "title": "UNETLoader"
+        }
+      },
+      "38": {
+        "inputs": {
+          "filename": "umt5_xxl_fp8_e4m3fn_scaled.safetensors"
+        },
+        "class_type": "CLIPLoader",
+        "_meta": {
+          "title": "CLIPLoader"
+        }
+      },
+      "39": {
+        "inputs": {
+          "filename": "wan_2.1_vae.safetensors"
+        },
+        "class_type": "VAELoader",
+        "_meta": {
+          "title": "VAELoader"
+        }
+      },
+      "50": {
+        "inputs": {
+          "value": 832,
+          "positive": [
+            "90",
+            0
+          ],
+          "negative": [
+            "7",
+            0
+          ],
+          "vae": [
+            "39",
+            0
+          ],
+          "clip_vision_output": [
+            "107",
+            0
+          ],
+          "start_image": [
+            "64",
+            0
+          ],
+          "width": [
+            "64",
+            1
+          ],
+          "height": [
+            "64",
+            2
+          ]
+        },
+        "class_type": "WanImageToVideo",
+        "_meta": {
+          "title": "WanImageToVideo"
+        }
+      },
+      "52": {
+        "inputs": {
+          "image": "1765251626679-2b2541a7987ae4a62d7b178fea8fe8aa.png"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+          "title": "LoadImage"
+        }
+      },
+      "54": {
+        "inputs": {
+          "value": 8.000000000000002,
+          "model": [
+            "109",
+            0
+          ]
+        },
+        "class_type": "ModelSamplingSD3",
+        "_meta": {
+          "title": "ModelSamplingSD3"
+        }
+      },
+      "55": {
+        "inputs": {
+          "value": 8.000000000000002,
+          "model": [
+            "110",
+            0
+          ]
+        },
+        "class_type": "ModelSamplingSD3",
+        "_meta": {
+          "title": "ModelSamplingSD3"
+        }
+      },
+      "56": {
+        "inputs": {
+          "filename": "WanVideo/smoothMixWan22I2VT2V_i2vLow.safetensors"
+        },
+        "class_type": "UNETLoader",
+        "_meta": {
+          "title": "UNETLoader"
+        }
+      },
+      "57": {
+        "inputs": {
+          "text": "enable",
+          "model": [
+            "54",
+            0
+          ],
+          "positive": [
+            "50",
+            0
+          ],
+          "negative": [
+            "50",
+            1
+          ],
+          "latent_image": [
+            "50",
+            2
+          ],
+          "noise_seed": [
+            "82",
+            0
+          ]
+        },
+        "class_type": "KSamplerAdvanced",
+        "_meta": {
+          "title": "KSamplerAdvanced"
+        }
+      },
+      "58": {
+        "inputs": {
+          "text": "disable",
+          "model": [
+            "55",
+            0
+          ],
+          "positive": [
+            "50",
+            0
+          ],
+          "negative": [
+            "50",
+            1
+          ],
+          "latent_image": [
+            "57",
+            0
+          ]
+        },
+        "class_type": "KSamplerAdvanced",
+        "_meta": {
+          "title": "KSamplerAdvanced"
+        }
+      },
+      "61": {
+        "inputs": {
+          "filename": "WanVideo\\wan2.2_i2v_high_noise_14B_Q8_0.gguf"
+        },
+        "class_type": "UnetLoaderGGUF",
+        "_meta": {
+          "title": "UnetLoaderGGUF"
+        }
+      },
+      "62": {
+        "inputs": {
+          "filename": "WanVideo\\wan2.2_i2v_low_noise_14B_Q8_0.gguf"
+        },
+        "class_type": "UnetLoaderGGUF",
+        "_meta": {
+          "title": "UnetLoaderGGUF"
+        }
+      },
+      "63": {
+        "inputs": {
+          "value": 16,
+          "images": [
+            "8",
+            0
+          ]
+        },
+        "class_type": "VHS_VideoCombine",
+        "_meta": {
+          "title": "VHS_VideoCombine"
+        }
+      },
+      "64": {
+        "inputs": {
+          "value": 480,
+          "image": [
+            "52",
+            0
+          ],
+          "width": [
+            "97",
+            0
+          ],
+          "height": [
+            "97",
+            1
+          ]
+        },
+        "class_type": "ImageResizeKJv2",
+        "_meta": {
+          "title": "ImageResizeKJv2"
+        }
+      },
+      "73": {
+        "inputs": {
+          "anything": [
+            "58",
+            0
+          ]
+        },
+        "class_type": "easy cleanGpuUsed",
+        "_meta": {
+          "title": "easy cleanGpuUsed"
+        }
+      },
+      "74": {
+        "inputs": {
+          "text": "lanczos",
+          "image": [
+            "8",
+            0
+          ]
+        },
+        "class_type": "ImageScaleBy",
+        "_meta": {
+          "title": "ImageScaleBy"
+        }
+      },
+      "75": {
+        "inputs": {
+          "filename": "rife49.pth",
+          "frames": [
+            "76",
+            0
+          ]
+        },
+        "class_type": "RIFE VFI",
+        "_meta": {
+          "title": "RIFE VFI"
+        }
+      },
+      "76": {
+        "inputs": {
+          "anything": [
+            "74",
+            0
+          ]
+        },
+        "class_type": "easy cleanGpuUsed",
+        "_meta": {
+          "title": "easy cleanGpuUsed"
+        }
+      },
+      "77": {
+        "inputs": {
+          "value": 32,
+          "images": [
+            "75",
+            0
+          ]
+        },
+        "class_type": "VHS_VideoCombine",
+        "_meta": {
+          "title": "VHS_VideoCombine"
+        }
+      },
+      "78": {
+        "inputs": {
+          "text": "end",
+          "image": [
+            "8",
+            0
+          ]
+        },
+        "class_type": "Pick From Batch (mtb)",
+        "_meta": {
+          "title": "Pick From Batch (mtb)"
+        }
+      },
+      "79": {
+        "inputs": {
+          "text": "lanczos",
+          "image": [
+            "112",
+            0
+          ]
+        },
+        "class_type": "ImageScaleBy",
+        "_meta": {
+          "title": "ImageScaleBy"
+        }
+      },
+      "80": {
+        "inputs": {
+          "images": [
+            "79",
+            0
+          ]
+        },
+        "class_type": "PreviewImage",
+        "_meta": {
+          "title": "PreviewImage"
+        }
+      },
+      "81": {
+        "inputs": {
+          "filename_prefix": "Video/%date:yyyy-MM-dd%/%date:hhmmss%LASTFRAME",
+          "images": [
+            "79",
+            0
+          ]
+        },
+        "class_type": "SaveImage",
+        "_meta": {
+          "title": "SaveImage"
+        }
+      },
+      "82": {
+        "inputs": {
+          "value": -1
+        },
+        "class_type": "Seed (rgthree)",
+        "_meta": {
+          "title": "Seed (rgthree)"
+        }
+      },
+      "84": {
+        "inputs": {
+          "text": "",
+          "string_b": [
+            "88",
+            0
+          ]
+        },
+        "class_type": "StringConcatenate",
+        "_meta": {
+          "title": "StringConcatenate"
+        }
+      },
+      "88": {
+        "inputs": {
+          "text": "Elara standing on wooden deck outside beach house at sunset, arms stretched high above head in satisfying morning stretch, back slightly arched, cowboy hat, white lace crop top riding up exposing toned midriff, denim shorts low on hips, rose gold hair cascading down, bright dimpled smile, toes curling against warm wood, ocean breeze, golden flares, slow cinematic 360 orbit around her, vibrant anime style, joyful and free-spirited energy, 4k"
+        },
+        "class_type": "PrimitiveStringMultiline",
+        "_meta": {
+          "title": "Positive"
+        }
+      },
+      "89": {
+        "inputs": {
+          "text": "Elara standing on wooden deck outside beach house at sunset, arms stretched high above head in satisfying morning stretch, back slightly arched, cowboy hat, white lace crop top riding up exposing toned midriff, denim shorts low on hips, rose gold hair cascading down, bright dimpled smile, toes curling against warm wood, ocean breeze, golden flares, slow cinematic 360 orbit around her, vibrant anime style, joyful and free-spirited energy, 4k",
+          "anything": [
+            "84",
+            0
+          ]
+        },
+        "class_type": "easy showAnything",
+        "_meta": {
+          "title": "easy showAnything"
+        }
+      },
+      "90": {
+        "inputs": {
+          "text": [
+            "84",
+            0
+          ],
+          "clip": [
+            "38",
+            0
+          ]
+        },
+        "class_type": "CLIPTextEncode",
+        "_meta": {
+          "title": "CLIPTextEncode"
+        }
+      },
+      "97": {
+        "inputs": {
+          "value": 480
+        },
+        "class_type": "mxSlider2D",
+        "_meta": {
+          "title": "VIDEO Width x Height"
+        }
+      },
+      "105": {
+        "inputs": {},
+        "class_type": "Label (rgthree)",
+        "_meta": {
+          "title": "Label (rgthree)"
+        }
+      },
+      "106": {
+        "inputs": {},
+        "class_type": "Label (rgthree)",
+        "_meta": {
+          "title": "Label (rgthree)"
+        }
+      },
+      "107": {
+        "inputs": {
+          "text": "none",
+          "clip_vision": [
+            "108",
+            0
+          ],
+          "image": [
+            "52",
+            0
+          ]
+        },
+        "class_type": "CLIPVisionEncode",
+        "_meta": {
+          "title": "CLIPVisionEncode"
+        }
+      },
+      "108": {
+        "inputs": {
+          "filename": "wan21NSFWClipVisionH_v10.safetensors"
+        },
+        "class_type": "CLIPVisionLoader",
+        "_meta": {
+          "title": "CLIPVisionLoader"
+        }
+      },
+      "109": {
+        "inputs": {
+          "value": {},
+          "model": [
+            "37",
+            0
+          ]
+        },
+        "class_type": "Power Lora Loader (rgthree)",
+        "_meta": {
+          "title": "Power Lora Loader (rgthree)"
+        }
+      },
+      "110": {
+        "inputs": {
+          "value": {},
+          "model": [
+            "56",
+            0
+          ]
+        },
+        "class_type": "Power Lora Loader (rgthree)",
+        "_meta": {
+          "title": "Power Lora Loader (rgthree)"
+        }
+      },
+      "112": {
+        "inputs": {
+          "text": "mkl",
+          "image_ref": [
+            "52",
+            0
+          ],
+          "image_target": [
+            "78",
+            0
+          ]
+        },
+        "class_type": "ColorMatch",
+        "_meta": {
+          "title": "ColorMatch"
+        }
+      }
+    }
+  }
+}
